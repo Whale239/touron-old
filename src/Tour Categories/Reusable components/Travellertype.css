@@ -1,0 +1,158 @@
+.travellertype-row1,
+.travellertype-row2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.travellertype_container h5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: 'andika';
+}
+.traveltype {
+  width: 28%;
+  height: 110px;
+  background-color: #fff;
+  box-shadow: 0 2px 20px 0 rgba(4, 32, 66, 0.2);
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 20px;
+  transition: 0.2s ease-in;
+  position: relative;
+}
+
+.traveltype-details img {
+  width: 20px;
+  height: 20px;
+}
+
+.traveltype-details {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.traveltype-details h2 {
+  font-size: 16px;
+  /* font-weight: 600; */
+  /* margin: 20px; */
+  font-family: 'andika';
+}
+.traveltype:hover {
+  cursor: pointer;
+}
+
+.solo,
+.family,
+.friends,
+.honeymoon {
+  border: 3px solid burlywood;
+}
+
+@media (max-height: 578px) {
+  .traveltype {
+    width: 25%;
+    height: 110px;
+    background-color: #fff;
+    box-shadow: 0 2px 20px 0 rgba(4, 32, 66, 0.2);
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 20px;
+    transition: 0.2s ease-in;
+    position: relative;
+  }
+  .traveltype-details img {
+    width: 50px;
+    height: 50px;
+  }
+  .traveltype-details h2 {
+    font-size: 16px;
+    /* font-weight: 600 */
+    /* margin: 20px; */
+    font-family: 'andika';
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .travellertype_container h5 {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (min-width: 620px) {
+  .travellertype_container h5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  .traveltype img {
+    width: 80%;
+  }
+}
+@media screen and (min-width: 480px) {
+  .traveltype {
+    width: 50%;
+    height: 160px;
+  }
+  .travellertype_container h5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  .traveltype img {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 360px) {
+  .traveltype {
+    width: 50%;
+  }
+  .travellertype_container h5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  .traveltype {
+    margin: 10px;
+    padding: 0;
+  }
+  .traveltype img {
+    width: 90px;
+    height: 80%;
+  }
+}
+@media screen and (min-width: 280px) {
+  .travellertype_container h5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  .traveltype {
+    margin: 10px;
+    padding: 0;
+  }
+  .traveltype img {
+    width: 70px;
+    height: 80%;
+  }
+}

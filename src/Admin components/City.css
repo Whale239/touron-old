@@ -1,0 +1,38 @@
+.city--fiels-flex {
+  display: flex;
+  justify-content: space-between;
+}
+.city--field {
+  display: flex;
+  flex-direction: column;
+}
+
+.b {
+  width: 100%;
+  background-color: aqua;
+}
+.city--btn {
+  background-color: #120e43;
+  color: white;
+  border: none;
+  padding: 0.5em 1em;
+  margin: 2em;
+  border-radius: 10px;
+}
+.city-btn-div {
+  display: flex;
+  justify-content: flex-end;
+}
+.city--field label {
+  font-family: 'Roboto', sans-serif;
+  margin-top: 0.5em;
+}
+.city--field input,
+.city--field textarea,
+.city--field select {
+  border: none;
+  outline: none;
+  border: 1px solid #03c6c7;
+  border-radius: 3px;
+  padding-left: 5px;
+}

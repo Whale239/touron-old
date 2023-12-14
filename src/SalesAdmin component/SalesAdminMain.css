@@ -1,0 +1,36 @@
+.salessadminmainn {
+  display: flex;
+  width: 100%;
+}
+.salessadminmainndivide1 {
+  width: 15%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-right: 1px solid #00000052;
+}
+.salessadminmainndivide2 {
+  width: 85%;
+}
+.salessadminmainndivide1Ul {
+  list-style: none;
+  width: 100%;
+}
+.salessadminmainndivide1Li {
+  background-color: #e07c24;
+  padding: 10px 0px;
+  color: black;
+  font-family: 'Andika';
+  border-top: 1px solid #00000052;
+  border-bottom: 1px solid #00000052;
+  cursor: pointer;
+}
+.salessadminmainndivide1LiN {
+  background-color: #fff;
+  padding: 10px 0px;
+  color: black;
+  font-family: 'Andika';
+  cursor: pointer;
+}

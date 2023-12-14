@@ -1,0 +1,111 @@
+.tourist-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.adult,
+.child {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 35px;
+  margin-bottom: 10px;
+  padding: 45px 0;
+}
+.tourist-category label {
+  color: gray;
+  font-weight: 700;
+  font-family: 'andika';
+}
+.tourist-func .increment,
+.tourist-func .decrement {
+  background-color: tomato;
+  padding: 8px 15px;
+  color: #fff;
+  border-radius: 50%;
+  outline: none;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+}
+
+.adult img,
+.child img {
+  width: 30%;
+  height: 43%;
+}
+
+.tourist-container input {
+  text-align: center;
+}
+.numbers {
+  outline: none;
+  border: none;
+  font-size: 24px;
+  font-family: 'andika';
+  padding: 0 5px;
+  width: 100px;
+}
+@media (max-height: 578px) {
+  .adult img,
+  .child img {
+    width: 20%;
+    height: 43%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .tourist-func .increment,
+  .tourist-func .decrement {
+    padding: 8px;
+    color: #fff;
+    font-size: 14px;
+  }
+  .tourist-container input {
+    text-align: center;
+    width: 70px;
+    font-size: 18px;
+  }
+  .adult,
+  .child {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    padding: 15px 0;
+  }
+
+  .adult img,
+  .child img {
+    width: 60%;
+    height: 110px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .adult,
+  .child {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    padding: 15px 0;
+  }
+  .tourist-container input {
+    text-align: center;
+    width: 70px;
+  }
+  .adult img,
+  .child img {
+    width: 60%;
+    height: 103%;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .tourist-func .increment,
+  .tourist-func .decrement {
+    padding: 5px;
+    color: #fff;
+    font-size: 12px;
+  }
+  .tourist-container input {
+    font-size: 15px;
+  }
+}

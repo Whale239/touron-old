@@ -1,0 +1,294 @@
+.booking__count-container {
+  display: flex;
+
+  margin: 2rem 0;
+  padding: 3rem;
+  background-color: #f7f7f7;
+  height: 95vh;
+}
+.booking--header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.booking-name {
+  font-weight: bold;
+  font-size: 2.5rem;
+  font-family: 'Mont';
+  margin-bottom: 20px;
+  text-align: center;
+}
+/* Team Performance */
+
+.stats {
+  padding: 1px;
+  margin-left: -1rem;
+  margin-bottom: 0;
+  display: block;
+}
+.stats-image {
+  height: 80%;
+  width: 10%;
+}
+
+.stats__filter-container {
+  display: flex;
+  width: 100%;
+  padding: 20px 0;
+  /* justify-content: space-evenly; */
+}
+
+.stats_filter-header {
+  font-weight: bold;
+  font-size: 28px;
+  font-family: 'Mont';
+}
+.stats__filter--name {
+  align-self: flex-start;
+  flex: 1;
+  font-size: 18px;
+  font-style: italic;
+}
+.stats__filter--buttons {
+  flex: 1.5;
+  display: flex;
+  align-items: center;
+}
+
+.radio--filter {
+  margin-right: 20px;
+}
+
+/* custom radio */
+
+.radio-label {
+  position: relative;
+  font-size: 16px;
+  padding-left: 30px;
+  font-family: 'Mont';
+  cursor: pointer;
+}
+.cutsom-radio {
+  height: 22px;
+  width: 22px;
+  border-radius: 50%;
+  border: 3px solid #6ce5e8;
+  display: inline-block;
+  position: absolute;
+  left: -2%;
+}
+
+.cutsom-radio::after {
+  content: '';
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: #6ce5e8;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.radio-input {
+  display: none;
+}
+.radio-input:checked ~ .radio-label .cutsom-radio::after {
+  opacity: 1;
+}
+/* custom radio */
+.stats__data-container {
+  display: flex;
+  padding: 10px;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  /* align-items: center; */
+}
+
+.stats__data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin: 10px;
+  border-radius: 30px;
+  flex-basis: 25%;
+  text-align: center;
+}
+
+.stats__data-white {
+  background-color: #6ce5e8;
+}
+.stats__data-blue {
+  background-color: #fff;
+  border: 10px solid #6ce5e8;
+}
+
+.data-image {
+  height: 10rem;
+  width: 14rem;
+  margin: 10px 35px;
+}
+
+.data-name {
+  font-size: 20px;
+  padding: 15px 35px;
+  font-family: 'Mont-light';
+  font-style: italic;
+}
+
+.data-button {
+  margin: 30px 30px 20px;
+  padding: 10px 15px;
+  border-radius: 8px;
+}
+
+.data-button-white {
+  background-color: #fff;
+}
+
+.data-button-blue {
+  background-color: #6ce5e8;
+}
+
+.data-button h6 {
+  font-family: 'Mont';
+  font-weight: bold;
+}
+
+.data-icon {
+  padding: 10px 20px;
+  align-self: flex-end;
+  position: relative;
+  cursor: pointer;
+}
+.data--Decs {
+  position: absolute;
+  top: 35px;
+  right: 30px;
+  background-color: black;
+  color: #6ce5e8;
+  width: 250px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  padding: 10px;
+  font-size: 14px;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s;
+}
+.data-icon:hover .data--Decs {
+  opacity: 1;
+  visibility: visible;
+}
+/* Team Performance */
+
+.booking__count-bar {
+  flex-basis: 68%;
+  border-radius: 5px;
+}
+.bar--chart {
+  padding: 2rem 0 1rem;
+}
+.pie--chart {
+  padding: 2rem 0 1rem;
+  width: 300px;
+  height: 300px;
+}
+.booking__count-line {
+  flex-basis: 45%;
+  background-color: #f7f7f7;
+  border-radius: 5px;
+  /* padding: 1rem; */
+  margin-right: 0.8rem;
+}
+.booking__count-doughnut {
+  flex-basis: 37%;
+  align-self: flex-start;
+  border-radius: 5px;
+  /* margin-right: 0.8rem; */
+}
+.booking__count--header {
+  font-size: 1.3rem;
+  font-weight: bold;
+  font-family: 'Mont';
+}
+.booking__count-bar .month {
+  display: flex;
+  position: relative;
+}
+.booking__count-bar .month label {
+  margin-bottom: 0px;
+}
+.bookState {
+  background-color: #fff;
+  box-shadow: 0 2.5px 5px rgba(0, 0, 0, 0.5);
+  margin-left: 5px;
+  padding: 0 8px;
+  border-radius: 3px;
+  width: 100px;
+}
+.select_option {
+  position: absolute;
+  top: 30px;
+  left: 75px;
+  box-shadow: 0 2.5px 5px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  border-radius: 3px;
+  overflow: hidden;
+  background-color: #fff;
+  width: 100px;
+}
+.select_optionn {
+  position: absolute;
+  top: 30px;
+  left: 43px;
+  box-shadow: 0 2.5px 5px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  border-radius: 3px;
+  overflow: hidden;
+  background-color: #fff;
+  width: 78px;
+}
+.select_option li,
+.select_optionn li {
+  list-style: none;
+  padding: 3px 8px;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+.select_option li:hover,
+.select_optionn li:hover {
+  background-color: #758283;
+  color: #fff;
+}
+.icon-select {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 62px;
+  cursor: pointer;
+}
+/* .month label {
+    margin-right: 10px;
+    font-family: "Mont";
+  } */
+.loads {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.exports {
+  border: none;
+  outline: none;
+  padding: 2px 5px;
+  background-color: blue;
+  color: white;
+}

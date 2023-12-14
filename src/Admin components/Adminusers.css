@@ -1,0 +1,87 @@
+.adminUser-btn {
+  background-color: #120e43;
+  color: white;
+  border: none;
+  padding: 0.5em 1em;
+  margin: 2em;
+  border-radius: 10px;
+}
+.adminUser-btn-div {
+  display: flex;
+  justify-content: flex-end;
+}
+.admin--field label {
+  font-family: 'Roboto', sans-serif;
+  margin-top: 0.5em;
+}
+.admin--field input {
+  border: none;
+  outline: none;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding-left: 5px;
+  width: 60%;
+}
+.admin--field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.adminFieldMain {
+  width: 60%;
+}
+.adminField {
+  display: flex;
+  flex-direction: column;
+}
+.adminField:nth-child(4) {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.adminField h6 {
+  padding: 10px 0;
+  font-family: 'andika';
+  font-weight: 700;
+}
+.adminField:nth-child(4) h6 {
+  padding-left: 10px;
+  font-family: 'andika';
+  font-weight: 700;
+}
+.errMsg h6 {
+  color: red;
+}
+
+.table-heading-row.admin-table h5:nth-child(1) {
+  flex-basis: 10%;
+}
+.table-heading-container.admin-table h5:nth-child(1) {
+  flex-basis: 10%;
+}
+.table-heading-row.admin-table h5:nth-child(3) {
+  flex-basis: 40%;
+}
+.table-heading-container.admin-table h5:nth-child(3) {
+  flex-basis: 40%;
+}
+.hCont-button {
+  background-color: #e21717;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 0 10px;
+  color: white;
+  cursor: pointer;
+}
+.sCont-button {
+  background-color: #4dd637;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 0 10px;
+  color: white;
+  cursor: pointer;
+}

@@ -1,0 +1,1582 @@
+.AllMainss {
+  position: relative;
+}
+.mainQuiz {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+.quizPg1 {
+  background-color: #0c247b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+.quizPg0 {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+.quizPg2 {
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+.quizTitle1 {
+  font-family: 'Selima';
+  font-size: 60px;
+  color: #ffffff;
+  animation-name: hello;
+  animation-duration: 3s;
+}
+@keyframes hello {
+  0% {
+    opacity: 0;
+    margin-bottom: 30px;
+  }
+  50% {
+    opacity: 0.5;
+    margin-bottom: 10px;
+  }
+  100% {
+    opacity: 1;
+    margin-bottom: 0px;
+  }
+}
+.quizTitle2 {
+  font-family: 'League Spartan', sans-serif;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 700;
+}
+.quizVertLine1 {
+  background-color: #22499a;
+  height: 150px;
+  width: 1.5px;
+}
+.quizVertLine2 {
+  background-color: #d2e8fa;
+  height: 270px;
+  width: 2px;
+}
+.quizArrowMain1 {
+  background-color: #5dadec;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.quizArrow1 {
+  font-size: 32px;
+  font-weight: 900;
+  color: #000000;
+}
+
+.letsBeginName {
+  align-self: start;
+  padding-left: 30px;
+  padding-top: 35px;
+}
+.letsName {
+  font-family: 'League Spartan', sans-serif;
+  font-size: 30px;
+  color: #0c247b;
+  font-weight: bold;
+}
+.beginName {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+}
+.quizPg2SubM {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.quizPg2Sub {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.quizPg2SubL {
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.quizPg2SubLB {
+  margin-left: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Storequiz {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 0px;
+  border-radius: 20px;
+  width: 120px;
+  border: 1px solid #000000;
+}
+.Storequizz {
+  background-color: #0c247b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 0px;
+  border-radius: 20px;
+  width: 120px;
+}
+.Contestquiz {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 0px;
+  width: 120px;
+  border-radius: 20px;
+  border: 1px solid #000000;
+}
+.Contestquizz {
+  background-color: #0c247b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 0px;
+  width: 120px;
+  border-radius: 20px;
+}
+.storeIcon {
+  color: #000000;
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+.storeIconn {
+  color: #fff;
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+.contestIcon {
+  color: #000000;
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+.contestIconn {
+  color: #fff;
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+.storeName {
+  color: #000000;
+  font-family: 'League Spartan', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+.storeNamee {
+  color: #fff;
+  font-family: 'League Spartan', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+.contestName {
+  color: #000000;
+  font-family: 'League Spartan', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+.contestNamee {
+  color: #fff;
+  font-family: 'League Spartan', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+.knowaboutp {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+.win2nights {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+.knowaboutq {
+  font-family: 'League Spartan', sans-serif;
+  font-size: 13px;
+  width: 105px;
+  text-align: center;
+  margin: 0;
+  font-weight: bold;
+}
+.win2nightsq {
+  font-family: 'League Spartan', sans-serif;
+  font-size: 13px;
+  width: 105px;
+  text-align: center;
+  margin: 0;
+  font-weight: bold;
+}
+.knowabouti {
+  color: #98b6df;
+  font-size: 30px;
+}
+.win2nightsi {
+  /* color: #98b6df; */
+  /* font-size: 30px; */
+  width: 42px;
+  height: 42px;
+}
+.quizArrowMain0 {
+  background-color: #0c247b;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-top: 80px;
+}
+.quizArrowMain2 {
+  background-color: #0c247b;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.quizArrow2 {
+  font-size: 32px;
+  font-weight: 900;
+  color: #ffffff;
+}
+
+.quizPg3Main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 20px;
+}
+.quizSendMainD {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+.quizSendMainDD {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 15px;
+}
+.prevquiz {
+  transform: rotate(180deg);
+  font-size: 28px;
+}
+.quizSend {
+  font-size: 28px;
+}
+.closeQuiz {
+  font-size: 28px;
+  color: #fff;
+}
+.countQuizz {
+  background-color: #fff;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.countQuizz p {
+  margin: 0;
+  color: #0c247b;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.kuttyPara {
+  background-color: #8ed98c;
+  padding: 20px;
+  border-radius: 30px;
+  margin: 0 20px;
+}
+.quizVertLine3 {
+  background-color: #d2e8fa;
+  height: 200px;
+  width: 2px;
+}
+.quizVertLine4 {
+  background-color: #d2e8fa;
+  height: 420px;
+  width: 2px;
+}
+.kuttyPara1 {
+  font-family: 'League Spartan', sans-serif;
+  font-size: 28px;
+  color: #0c247b;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.kuttyPara2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+.quizArrowMain3 {
+  background-color: #2bb826;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.quizArrow3 {
+  font-size: 32px;
+  font-weight: 900;
+  color: #000000;
+}
+.certtImg {
+  height: 70px;
+  padding-left: 20px;
+  align-self: flex-start;
+  margin-top: 90px;
+}
+.certtImg img {
+  height: 100%;
+}
+.countImg {
+  width: 164px;
+  height: 140px;
+}
+.quizPg4Main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
+}
+.quizPg5Main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+.catQuizz {
+  display: flex;
+  background-color: #62c273;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 300px;
+  padding: 20px 0px;
+  border-radius: 20px;
+}
+.catQuizz p {
+  margin: 0;
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: #ffffff;
+}
+.catQuizzIcon {
+  color: #ffffff;
+  font-size: 35px;
+}
+.catQuizz1 {
+  display: flex;
+}
+.catQuizz1SubI,
+.catQuizz1SubIn,
+.catQuizz1SubC,
+.catQuizz1SubF,
+.catQuizz1SubW,
+.catQuizz1SubH {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 28px;
+  border-radius: 10px;
+  margin: 15px 5px;
+}
+.catQuizz1SubI {
+  background-color: #9d3be1;
+}
+.catQuizz1SubC {
+  background-color: #ff5757;
+}
+.catQuizz1SubF {
+  background-color: #ff7948;
+}
+.catQuizz1SubIn {
+  background-color: #ffd427;
+}
+.catQuizz1SubW {
+  background-color: #3ea8dd;
+}
+.catQuizz1SubH {
+  background-color: #dd3b96;
+}
+.catQuizz1Sub p {
+  color: #ffffff;
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: bold;
+  margin: 0;
+  font-size: 14px;
+}
+.catQuizStar {
+  color: #fff;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.celebs {
+  padding-left: 30px;
+  align-self: flex-start;
+}
+.celebs p {
+  font-family: 'Montserrat', sans-serif;
+  color: #0c247b;
+  font-weight: 600;
+  font-size: 20px;
+  width: 200px;
+  margin-bottom: 5px;
+}
+.celebss {
+  padding-left: 30px;
+  align-self: flex-start;
+}
+.celebss p {
+  font-family: 'Montserrat', sans-serif;
+  color: #0c247b;
+  font-weight: 600;
+  font-size: 20px;
+  width: 250px;
+  margin-bottom: 5px;
+}
+.quizHoriLine {
+  background-color: #d2e8fa;
+  height: 2px;
+  width: 250px;
+}
+.quizzanilogo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.aniLogo {
+  width: 150px;
+  height: 100px;
+}
+.aniLogo img {
+  width: 100%;
+  height: 100%;
+}
+.aniLogoTitle {
+  width: 200px;
+  height: 78px;
+  animation-name: logo;
+  animation-duration: 4s;
+}
+
+.aniLogoTitle img {
+  width: 100%;
+  height: 100%;
+}
+@keyframes logo {
+  0% {
+    margin-top: 80px;
+  }
+  50% {
+    margin-top: 30px;
+  }
+  100% {
+    margin-top: 0px;
+  }
+}
+.celebsImg__Main {
+  display: flex;
+}
+.celebsImg {
+  height: 230px;
+  width: 150px;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 1.5px solid #0c247b;
+  margin: 20px;
+}
+.celebsImg img {
+  width: 100%;
+  height: 100%;
+}
+.instasll {
+  align-self: flex-start;
+  padding-left: 25px;
+}
+.intImgs {
+  width: 250px;
+  height: 75px;
+}
+.instafImg {
+  width: 250px;
+  height: 350px;
+}
+.quizPg8 {
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+.quizPg11 {
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.yesnoQM {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.yesnoQ {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.yesnoQR {
+  border-radius: 10px;
+  border: 1.5px solid black;
+  width: 120px;
+  height: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+.yesnoQRR {
+  border-radius: 10px;
+  width: 120px;
+  height: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  background-color: #0c247b;
+}
+.yesnoQR img {
+  width: 80px;
+  height: 65px;
+}
+.yesnoQRR img {
+  width: 80px;
+  height: 65px;
+}
+.yesnoQRN {
+  border-radius: 10px;
+  border: 1.5px solid black;
+  width: 120px;
+  height: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+.yesnoQRNN {
+  border-radius: 10px;
+  background-color: #0c247b;
+  width: 120px;
+  height: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+.yesnoQRN img {
+  width: 80px;
+  height: 65px;
+}
+.yesnoQRNN img {
+  width: 80px;
+  height: 65px;
+}
+.njoyBtn {
+  background-color: #0c247b;
+  border-radius: 40px;
+  padding: 25px 20px;
+  font-family: 'Open Sans', sans-serif;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 18px;
+}
+.njoyyImg {
+  width: 240px;
+  height: 245px;
+}
+.quizPg9Main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.quizPg9 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid #000000;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 20px 10px;
+}
+
+.luckyHello {
+  color: #0c247b;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.luckyHelloIn {
+  color: #0c247b;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-align: justify;
+}
+.luckyyInputMa {
+  border: 1px solid #000000;
+  padding: 10px;
+  border-radius: 30px;
+  width: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+.luckyyInput {
+  border: none;
+  outline: none;
+  width: 85%;
+  font-size: 15px;
+}
+.luckyyInput::placeholder {
+  color: #d9d9d9;
+  font-size: 14px;
+}
+.luckydrawIcon {
+  color: #d9d9d9;
+}
+.luckySubmitBtn {
+  background-color: #0c247b;
+  padding: 10px;
+  width: 350px;
+  border-radius: 30px;
+  text-align: center;
+  /* margin-top: 20px; */
+  border: none;
+  outline: none;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+.luckySubmitBtnn {
+  background-color: #0c247b;
+  padding: 10px;
+  width: 350px;
+  border-radius: 30px;
+  text-align: center;
+  margin-top: 20px;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+.genderLucky {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.feeimg {
+  width: 60px;
+  height: 80px;
+  border: 1px solid #000000;
+  padding: 10px;
+  border-radius: 20px;
+}
+.feeimg img {
+  width: 100%;
+  height: 100%;
+}
+.feeimgg {
+  width: 60px;
+  height: 80px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #0c247b;
+}
+.feeimgg img {
+  width: 100%;
+  height: 100%;
+}
+.meeimg {
+  width: 60px;
+  height: 80px;
+  border: 1px solid #000000;
+  padding: 10px;
+  border-radius: 20px;
+}
+.meeimg img {
+  width: 100%;
+  height: 100%;
+}
+.meeimgg {
+  width: 60px;
+  height: 80px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #0c247b;
+}
+.meeimgg img {
+  width: 100%;
+  height: 100%;
+}
+.genderLuckySub1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.genderLuckySub111 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.genderLuckySub1 p,
+.genderLuckySub111 p {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-color: #0c247b;
+  text-decoration-style: solid;
+  color: #0c247b;
+  margin-bottom: 20px;
+}
+.genderLuckySub11 {
+  display: flex;
+}
+.genderLuckySub11 p {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  border-bottom: none;
+  color: #d9d9d9;
+}
+.LuckyCircle {
+  height: 18px;
+  width: 15px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-bottom: 8px;
+}
+.LuckyCirclee {
+  height: 18px;
+  width: 15px;
+  background-color: #0c247b;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-bottom: 8px;
+}
+.luckyProtect {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+.luckyProtect p {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+}
+.prtectIcon {
+  font-size: 16px;
+  margin-left: 5px;
+}
+.quizImggg {
+  width: 120px;
+  height: 170px;
+  align-self: flex-end;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.quizImggg img {
+  width: 100%;
+  height: 100%;
+}
+.quizQuestionOut,
+.quizQuestion {
+  align-self: flex-start;
+  padding-left: 10px;
+  margin-bottom: 25px;
+}
+
+.quizQuestionOut p {
+  margin: 0;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: underline;
+  text-decoration-color: #ffffff;
+  text-decoration-style: solid;
+  font-weight: bold;
+  font-size: 14px;
+}
+.quizQuestion p {
+  margin: 0;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: underline;
+  text-decoration-color: #ffffff;
+  text-decoration-style: solid;
+  font-weight: bold;
+  font-size: 18px;
+  width: 380px;
+}
+.quizAnswers {
+  background-color: #ffffff;
+  width: 300px;
+  margin: 10px 0;
+  border-radius: 30px;
+  font-family: 'Montserrat', sans-serif;
+  color: #0c247b;
+  font-weight: bold;
+  padding: 10px 0;
+  font-size: 18px;
+}
+.quizAnswers:active {
+  background-color: #7cd2be;
+  width: 300px;
+  margin: 10px 0;
+  border-radius: 30px;
+  padding: 10px 0;
+}
+.quizPopup {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  z-index: 9999;
+}
+.quizPopup_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  height: 30%;
+  background-color: #0c247b;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 3px;
+}
+.quizPopup_contentShare {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  height: 30%;
+  background-color: #ffffff;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 3px;
+}
+.quizPopup_contentResort {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  height: 30%;
+  background-color: #ffffff;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 3px;
+}
+.quizPopup_contentResortImg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  height: 50%;
+  background-color: #ffffff;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 3px;
+}
+.resort_view_imgsss {
+  width: 80%;
+  height: 80%;
+  margin: auto;
+}
+.quizPopup_para {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.quizPopup_btn {
+  background-color: #f7cd2e;
+  border-radius: 10px;
+  padding: 10px;
+  color: #0c247b;
+  font-weight: bold;
+  font-size: 17px;
+  font-family: 'Montserrat', sans-serif;
+}
+.quizPopup__content-close {
+  position: absolute;
+  top: 0px;
+  right: 15px;
+  font-size: 25px;
+  cursor: pointer;
+  color: #fff;
+}
+.quizPopup__content-closeShare {
+  position: absolute;
+  top: 0px;
+  right: 15px;
+  font-size: 25px;
+  cursor: pointer;
+  color: #000000;
+}
+.quizPopup__content-BtnShare {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.quizPopup__content-ResortShare {
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+}
+.njoyBtnLink {
+  text-decoration: none;
+}
+.quiz-req p {
+  margin: 15px 0;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  color: red;
+  font-weight: bold;
+}
+.letsBeginRes {
+  background-color: #fddea0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 0.5px solid gray;
+  border-radius: 20px;
+  padding: 10px 20px;
+}
+.letsBeginRespara {
+  font-family: 'League Spartan', sans-serif;
+  color: #16375f;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.letsBeginRescraftImg {
+  width: 100px;
+  height: 100px;
+}
+.quixExploreImg {
+  width: 350px;
+  height: 280px;
+}
+.quixExplorePara1 {
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 0;
+  font-weight: bold;
+  color: #000000;
+  font-size: 26px;
+  width: 300px;
+}
+.quixExplorePara2 {
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 0;
+  color: #000000;
+  font-size: 12px;
+}
+.quixExploreBtn,
+.quixDestniBtn {
+  border: none;
+  outline: none;
+  display: flex;
+  align-items: center;
+  background-color: #6d6d6d;
+  padding: 10px;
+  border-radius: 10px;
+}
+.quixExploreBtnTxt1 {
+  margin-bottom: 0;
+  background-color: #67e0f1;
+  padding: 15px 10px;
+  font-size: 14px;
+  border-radius: 10px;
+}
+.quixExploreBtnTxt2,
+.quixDestniBtnTxt2 {
+  margin-bottom: 0;
+  color: #feffff;
+  font-size: 16px;
+  margin-left: 20px;
+}
+.quixDestniImg {
+  width: 250px;
+  height: 250px;
+}
+.quixDestniPara1 {
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 0;
+  font-weight: bold;
+  color: #000000;
+  font-size: 26px;
+  width: 250px;
+}
+.quixDestniPara2 {
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 0;
+  color: #000000;
+  font-size: 12px;
+}
+.quixDestniBtnTxt1 {
+  margin-bottom: 0;
+  background-color: #67e0f1;
+  padding: 15px 10px;
+  font-size: 14px;
+  border-radius: 10px;
+  transform: rotate(90deg);
+}
+.quizPopup__content-ResortShareBtn {
+  outline: none;
+  border: none;
+  background-color: #6d6d6d;
+  color: #fff;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  font-family: 'League Spartan', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+}
+.quizMaldImg {
+  width: 350px;
+  height: 150px;
+}
+.malTextMains {
+  padding: 0px 20px;
+}
+.malTextImg {
+  width: 120px;
+  height: 50px;
+}
+.malTextpara1 {
+  font-family: 'Montserrat', sans-serif;
+  color: #737373;
+  font-size: 12px;
+  text-align: justify;
+}
+.malTextpara2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #737373;
+  font-size: 12px;
+  margin-bottom: 0;
+}
+.malMain2Img {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.malIslandsss {
+  height: 230px;
+  width: 150px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.malIslandsss img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.malres1Text1 {
+  width: 100px;
+  margin-bottom: 10px;
+}
+.malres2Text2 {
+  width: 120px;
+  height: 23px;
+  margin-bottom: 10px;
+}
+.malMain2Subb {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.islandssMainDeta {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 35vh;
+  width: 100%;
+  z-index: -1;
+  object-fit: contain;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  overflow: hidden;
+}
+.islandssMainDeta img {
+  width: 100%;
+  height: 100%;
+}
+.fuzimaltextMaain {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 260px;
+}
+.fuzimaltextMaainn {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 290px;
+}
+.fuzimaltextImg {
+  width: 250px;
+}
+.oblumaltextImg {
+  width: 250px;
+  height: 40px;
+}
+.fuzimaltextImgPara {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  color: #4d4d50;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+}
+.oblumaltextImgPara {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 11px;
+  color: #4d4d50;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+}
+.fuziiImgssMainn {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.fuziiImgss {
+  height: 230px;
+  width: 150px;
+}
+.fuziiBtnss button {
+  border: none;
+  outline: none;
+  margin-top: 30px;
+}
+.fuziiBtnss1,
+.fuziiBtnss2,
+.fuziiBtnss3 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.fuziiBtnss1 {
+  background-color: #8eadc2;
+}
+.fuziiBtnss2 {
+  background-color: #b19777;
+}
+.fuziiBtnss3 {
+  background-color: #80d47d;
+}
+.resort_quiz_Imggg {
+  width: 95%;
+  height: 250px;
+  margin: auto;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+}
+.resort_quiz_Imggg img {
+  width: 100%;
+  height: 100%;
+}
+.resort_quiz_Imggg_conts {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.resort_rupee_conts_mains,
+.resort_rupee_conts_mainss {
+  display: flex;
+  align-items: center;
+}
+.resort_rupee_conts {
+  color: #e28633;
+  padding-left: 5px;
+}
+.resort_rupee_contss {
+  color: #fff;
+}
+.resort_rupee_conts_mains p {
+  margin-bottom: 0;
+  color: #e28633;
+  text-decoration-line: line-through;
+  font-weight: 700;
+}
+.resort_rupee_conts_mainss p {
+  margin-bottom: 0;
+  color: #fff;
+  font-weight: 700;
+}
+.resort_rupee_conts_mainssss {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0004;
+  padding-left: 5px;
+}
+.resort_rupee_conts_mainssss button {
+  border: none;
+  outline: none;
+  background-color: #e28633;
+  color: #fff;
+  padding: 10px;
+  font-weight: 700;
+}
+.resort_d_conts {
+  padding-left: 10px;
+}
+.resort_d_conts p {
+  margin-bottom: 0;
+}
+.resort_d_conts_star {
+  color: #f5bf00;
+  font-size: 14px;
+}
+.resort_d_conts_star_name {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: #000000;
+  font-size: 18px;
+}
+.resort_d_conts_star_cat {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: #000000;
+  font-size: 17px;
+}
+.resort_d_conts_star_loc {
+  display: flex;
+  align-items: center;
+}
+.resort_d_conts_star_loc p {
+  font-family: 'Open Sans', sans-serif;
+  padding-left: 5px;
+  font-size: 18px;
+}
+.resort_d_conts_star_loc_icon {
+  font-size: 18px;
+}
+.resort_d_conts_star_meter {
+  display: flex;
+  align-items: center;
+}
+.resort_d_conts_star_meter p {
+  font-family: 'League Spartan', sans-serif;
+  font-size: 18px;
+}
+.resort_d_conts_star_meter_h {
+  color: red;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 28px;
+}
+.resort_d_conts_star_val {
+  display: flex;
+  align-items: center;
+}
+.resort_d_conts_star_val1 {
+  font-weight: bold;
+  padding-right: 5px;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+}
+.resort_d_conts_star_val2 {
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+}
+.resort_d_list_mainss {
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.resort_d_list_mainsss {
+  font-weight: bold;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 0;
+}
+.resort_d_list_mainssn {
+  font-weight: bold;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  color: #e28633;
+  border-bottom: 1.5px solid #e28633;
+  margin-bottom: 0;
+}
+.resort_about_img_mainn {
+  height: 250px;
+  overflow: scroll;
+}
+.resort_about_img_main {
+  overflow: scroll;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.resort_about_img {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  object-fit: contain;
+  border-radius: 10px;
+}
+.resort_about_img img {
+  height: 100%;
+  width: 100%;
+  margin: 10px;
+  border-radius: 10px;
+}
+.resort_about_img_main2 {
+  margin-top: 10px;
+  padding-left: 10px;
+}
+.resort_about_img_main2 p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: #000;
+}
+.resort_about_img_catImg {
+  height: 100px;
+  width: 100px;
+  object-fit: contain;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+.resort_about_img_catImg img {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+.resort_about_img_mainnnn {
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.resort_about_img_catImgmm {
+  display: flex;
+}
+.resort_about_img_catImgmm p {
+  margin-bottom: 0;
+}
+.resort_cat_nameee {
+  font-weight: bold;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+}
+.resort_cat_nameee1 {
+  display: flex;
+  align-items: center;
+}
+.resort_cat_nameee1 p {
+  font-family: 'League Spartan', sans-serif;
+  font-size: 20px;
+  padding-left: 5px;
+}
+.resort_cat_nameeepara {
+  padding: 20px;
+}
+.resort_cat_nameeepara p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+.ami_class_icon {
+  color: #33a6aa;
+}
+.ami_resort_iconsss {
+  display: flex;
+  align-items: center;
+  width: 160px;
+  padding: 10px 0px;
+}
+.ami_resort_iconsss p {
+  margin-bottom: 0;
+  font-family: 'Open Sans', sans-serif;
+  margin-left: 5px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.ami_resort_iconsss_mains {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.resort_about_img_mainn_keyn_btn,
+.resort_about_img_mainn_cancel_btn,
+.resort_about_img_mainn_rest_btn,
+.resort_about_img_mainn_rules_btn {
+  outline: none;
+  border: none;
+  background-color: #33a6aa;
+  color: #fff;
+  padding: 5px 8px;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+.resort_about_img_mainn_keyn p,
+.resort_about_img_mainn_cancel p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin-bottom: 0;
+  padding-left: 5px;
+}
+.resort_about_img_mainn_rest_mpara_sub {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 5px;
+}
+.resort_about_img_mainn_rest_mpara p {
+  margin-bottom: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+.resort_about_img_mainn_rest_mpara1 {
+  font-weight: 700;
+}
+.resort_about_img_mainn_rules_sub {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+.resort_about_img_mainn_rules_sub p {
+  margin-bottom: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+.resort_about_img_mainn_rules_sub_p1 {
+  font-weight: 700;
+}
+.resort_about_img_mainn_rules_sub1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.resort_about_img_mainn_high {
+  padding: 20px;
+}
+.Pvr_lucky_button {
+  background-color: #fff;
+  font-family: 'League Spartan', sans-serif;
+  font-weight: bold;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 10px 15px 5px 15px;
+  margin-bottom: 0;
+  color: #000;
+}
+.Pvr_lucky_button_link {
+  text-decoration: none;
+}

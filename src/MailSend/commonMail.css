@@ -1,0 +1,274 @@
+.mailHotelBackground {
+  position: relative;
+  background-image: url('https://images.pexels.com/photos/1102909/pexels-photo-1102909.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500');
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  height: auto;
+}
+.mailHotelBackground::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 100%;
+  width: 100%;
+}
+.sendContentMain {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 9999;
+  animation: popupSlow 0.3s ease-out;
+}
+.sendContent {
+  background-color: papayawhip;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 3px;
+  animation: popupContentSlow 0.7s ease-out 0.3s;
+  animation-fill-mode: backwards;
+}
+.mailHotel {
+  text-align: center;
+  font-family: 'andika';
+  position: relative;
+  z-index: 1;
+}
+.mailHotelSub {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mailHotelSub h1 {
+  color: white;
+  font-family: 'andika';
+  padding: 20px;
+}
+.mailHotelSubBtn {
+  border: none;
+  outline: none;
+  /* background-color: #e07c24; */
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  align-self: center;
+  cursor: pointer;
+}
+.mailHotelSubBtnC {
+  border: none;
+  outline: none;
+  margin: 10px;
+  background-color: white;
+  /* background-color: #e07c24; */
+  padding: 10px;
+  color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  align-self: center;
+}
+.hotelAttachMain {
+  height: 230px;
+}
+.hotelAttachMainn {
+  height: 170px;
+}
+.hotelMailInput {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.hotelMailInput input,
+.hotalUpload input {
+  border: none;
+  border-bottom: 2px solid #e07c24;
+  padding: 5px;
+  outline: none;
+  margin: 10px;
+  font-size: 17px;
+  height: 43px;
+  background-color: papayawhip;
+}
+
+.ccStyleMail {
+  position: relative;
+}
+.ccInputMail {
+  text-align: start;
+  border-bottom: 2px solid #e07c24;
+  padding: 5px;
+  margin: 10px;
+  font-size: 18px;
+  min-width: 236px;
+  width: auto;
+  cursor: pointer;
+  background-color: papayawhip;
+}
+.ccInputMailc {
+  text-align: start;
+  border-bottom: 2px solid #e07c24;
+  padding: 5px;
+  margin: 10px;
+  font-size: 18px;
+  min-width: 236px;
+  width: auto;
+  cursor: pointer;
+  color: gray;
+  background-color: papayawhip;
+}
+.ccDropMail {
+  position: absolute;
+  top: 55px;
+  background-color: white;
+  left: 24px;
+  border: 1px solid #e07c24;
+  border-radius: 5px;
+  overflow: hidden;
+  z-index: 1;
+}
+.ccDropMail ul {
+  margin: 0;
+}
+.ccDropMail li {
+  list-style: none;
+  cursor: pointer;
+  margin: 0;
+  padding: 8px;
+}
+.ccDropMail li:hover {
+  background-color: papayawhip;
+}
+.hotelAttach {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0;
+}
+.hotelAttach h6 {
+  color: white;
+  font-size: 18px;
+  font-family: 'andika';
+}
+.hotelAttachBtn {
+  margin-left: 20px;
+  border: none;
+  outline: none;
+  /* background-color: #e07c24; */
+  background-color: white;
+  padding: 5px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.hotelAttachBtnC {
+  margin-left: 20px;
+  border: none;
+  outline: none;
+  /* background-color: #e07c24; */
+  background-color: white;
+  padding: 5px 15px;
+  color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+.hotalUpload {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.attachedHotel {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.attachedHotelTitle h4 {
+  color: white;
+  padding-bottom: 10px;
+  font-family: 'andika';
+}
+.atchTitle {
+  border: 2px solid black;
+  display: inline-flex;
+  background-color: papayawhip;
+}
+.atchTitle h6 {
+  width: 300px;
+  padding: 10px;
+}
+.atchTitle h6:not(:last-child) {
+  border-right: 2px solid black;
+}
+.atchh {
+  border: 1px solid black;
+  display: inline-flex;
+  background-color: papayawhip;
+}
+.atchh p {
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 0;
+}
+.atchh p:not(:last-child) {
+  border-right: 1px solid black;
+}
+.noatchh {
+  text-align: center;
+  border: 1px solid black;
+  width: 903px;
+}
+.noatchhh {
+  text-align: center;
+  border: 1px solid black;
+  width: 603px;
+}
+.noatchh p,
+.noatchhh p {
+  color: red;
+  font-size: 17px;
+  margin-bottom: 0;
+  padding: 10px;
+}
+@keyframes popupSlow {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+@keyframes popupContentSlow {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+.hotelEdit {
+  color: blue;
+  font-size: 18px;
+  cursor: pointer;
+  margin-right: 15px;
+}
+.hotelDel {
+  color: red;
+  font-size: 18px;
+  cursor: pointer;
+}

@@ -1,0 +1,53 @@
+.loginModals {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 30%;
+  height: 80vh;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  box-shadow: 1px 3px 1px #9e9e9e;
+  overflow: hidden;
+  /* overflow: auto; */
+}
+.modal-login {
+  width: 100%;
+  padding: 50px;
+}
+@media screen and (max-width: 480px) {
+  .modal-login {
+    width: 100%;
+    padding: 20px 20px 60px 20px;
+  }
+  .modal-container {
+    width: 430px;
+  }
+  .modal-container img {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 360px) {
+  .modal-login {
+    width: 100%;
+    padding: 20px 20px 60px 20px;
+  }
+  .modal-container {
+    width: 300px;
+  }
+  .modal-container img {
+    width: 30%;
+  }
+}
+@media screen and (max-width: 280px) {
+  .modal-login {
+    width: 100%;
+    padding: 20px 20px 60px 20px;
+  }
+  .modal-container {
+    width: 240px;
+  }
+  .modal-container img {
+    width: 25%;
+  }
+}

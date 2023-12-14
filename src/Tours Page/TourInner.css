@@ -1,0 +1,406 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+
+.loader {
+  width: 100%;
+  height: 50vh;
+}
+
+.tour-video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.TourInner_image img {
+  width: 100%;
+  height: 600px;
+  border-radius: 10px;
+  object-fit: cover;
+  object-position: center;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.Tourintro::before {
+  /* height: 100vh; */
+  width: 100%;
+  height: 600px;
+  opacity: 0.8;
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #0000;
+}
+.TourName {
+  position: absolute;
+  top: 250px;
+  left: 5%;
+}
+.Tourintro {
+  position: relative;
+}
+.TourName h2 {
+  color: #fff;
+  font-weight: bold;
+  font-size: 42px;
+  font-family: sofia-pro, sans-serif;
+}
+
+.TourName h6 {
+  font-size: 30px;
+  color: rgb(255, 127, 0);
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.TourFeatures_Container {
+  display: flex;
+  padding: 150px;
+  flex-direction: column;
+}
+
+.countryname_container {
+  padding: 0px 20px;
+}
+
+.countryname_container h1 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 500;
+}
+.TourName_Navigation_container {
+  display: flex;
+  flex-direction: row;
+}
+.TourName_Navigation {
+  flex-basis: 100%;
+}
+
+.TourName_Navigation h1 {
+  color: aquamarine;
+}
+
+.TourFeatures_Details {
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.TourHighlights {
+  padding: 0 0 0 100px;
+}
+
+.AboutTour h1,
+.Highlights h1,
+.Informations h1 {
+  color: black;
+  font-size: 40px;
+  padding: 10px 20px;
+  font-weight: bolder;
+  font-family: 'Kaushan Script';
+}
+
+.Highlights li {
+  padding: 10px 0;
+}
+.Highlights ul {
+  padding: 20px 0px 20px 40px;
+  text-decoration: brown;
+  /* list-style-type: desc; */
+}
+.AboutTour p,
+.Informations p {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-family: 'andika';
+}
+
+.Informations p {
+  flex-basis: 50%;
+}
+.TourFeatures h1 {
+  color: aqua;
+}
+
+.TourFeatures {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.TourFeatures .travel {
+  position: relative;
+  top: -50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  background-color: white;
+  box-shadow: 2px 2px 20px 10px #dae0e2;
+  border-radius: 10px;
+}
+
+.TourFeatures .travel i {
+  font-size: 20px;
+  color: #333;
+  padding: 18px 18px;
+  margin: 15px 0px;
+  align-items: center;
+  border-radius: 50px;
+  position: relative;
+  left: -20px;
+  background-color: #5a8ec1;
+}
+
+.TourFeatures .Idealfor {
+  padding: 10px 20px 10px 0px;
+}
+
+.Idealfor h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-family: 'newyorklargeblack';
+}
+
+.Idealfor h6 {
+  color: #333;
+  font-size: 14px;
+  font-family: 'andika';
+}
+
+.Informations_Container {
+  display: flex;
+  padding: 100px;
+}
+
+.Informations {
+  flex-basis: 80%;
+}
+
+.Informations .labels {
+  /* flex-basis: 70%; */
+  padding: 0 20px;
+  display: flex;
+}
+
+.labels h6:hover {
+  cursor: pointer;
+}
+.labels h6 {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'newyorklargeblack';
+  padding: 10px;
+  background-color: #fff;
+  margin-left: 20px;
+  border-radius: 50px;
+}
+.Selectedlabels {
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'newyorklargeblack';
+  padding: 10px;
+  box-shadow: 2px 2px 10px 0 #7ed6df;
+  margin-left: 20px;
+  border-radius: 50px;
+  transform: scale(1.1);
+}
+
+.Informations h2 {
+  padding: 20px;
+  font-size: 20px;
+}
+
+.similartours {
+  display: flex;
+}
+
+/* .question_block {
+  flex-basis: 50%;
+  height: auto;
+} */
+
+@media screen and (max-width: 768px) {
+  .TourFeatures_Container {
+    display: flex;
+    padding: 50px;
+  }
+
+  .countryname_container {
+    padding: 0px 20px;
+  }
+
+  .countryname_container h1 {
+    font-weight: 500;
+    font-size: 30px;
+  }
+  .TourName_Navigation {
+    flex-basis: 100%;
+  }
+  .TourHighlights {
+    padding: 10px;
+  }
+
+  .TourFeatures_Details {
+    flex-basis: 45%;
+  }
+
+  .AboutTour h1,
+  .Highlights h1,
+  .Informations h1 {
+    color: black;
+    font-size: 25px;
+    font-weight: bolder;
+  }
+
+  .Highlights li {
+    padding: 10px 0;
+  }
+  .Highlights ul {
+    text-decoration: brown;
+  }
+  .AboutTour p,
+  .Informations p {
+    padding: 10px 20px;
+    font-size: 15px;
+  }
+
+  .Informations_Container {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+  }
+  .question_blocks {
+    width: 100%;
+  }
+  .Informations {
+    /* width: 50%; */
+    flex-basis: 50%;
+  }
+
+  .Informations .labels {
+    padding: 0px;
+    display: flex;
+  }
+  .similartours {
+    display: flex;
+  }
+
+  .question_block {
+    flex-basis: 100%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .TourName_Navigation_container {
+    display: flex;
+    flex-direction: column;
+  }
+  .TourHighlights {
+    padding: 0px;
+  }
+  .TourFeatures {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .TourFeatures .travel {
+    margin: 15px;
+  }
+  .question_block {
+    width: 100%;
+    background-color: khaki;
+  }
+  .question_block-text {
+    font-size: 13px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+
+  .TourFeatures_Container {
+    padding: 20px;
+  }
+
+  .countryname_container {
+    padding: 0px 20px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .TourFeatures_Container {
+    display: flex;
+    padding: 30px 15px;
+  }
+
+  .countryname_container {
+    padding: 0px 20px;
+  }
+
+  .countryname_container h1 {
+    font-weight: 500;
+    font-size: 24px;
+  }
+  .TourName_Navigation {
+    flex-basis: 100%;
+  }
+  .TourHighlights {
+    padding: 0px;
+  }
+
+  .TourFeatures_Details {
+    flex-basis: 45%;
+  }
+  .TourFeatures {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .TourFeatures .travel {
+    margin: 10px;
+  }
+
+  .labels_details p {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 280px) {
+  .TourFeatures_Container {
+    display: flex;
+    padding: 30px 15px;
+  }
+
+  .countryname_container {
+    padding: 0px 20px;
+  }
+
+  .countryname_container h1 {
+    font-weight: 500;
+    font-size: 27px;
+  }
+  .TourName_Navigation {
+    flex-basis: 100%;
+  }
+  .TourHighlights {
+    padding: 10px;
+  }
+
+  .TourFeatures_Details {
+    flex-basis: 45%;
+  }
+  .TourFeatures {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .TourFeatures .travel {
+    margin: 10px;
+  }
+}

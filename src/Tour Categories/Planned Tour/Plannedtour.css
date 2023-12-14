@@ -1,0 +1,369 @@
+.Planned-form-container {
+  background-color: #ecf0f1;
+  padding: 30px;
+  position: relative;
+}
+
+.planned_tour-form {
+  width: 50%;
+  height: 440px;
+  padding-bottom: 20px;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 0 2px 40px 0 rgba(4, 32, 66, 0.2);
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  overflow: auto;
+  z-index: 1;
+}
+
+.planned_tour-form h1,
+.planned_tour-form-selected h1 {
+  padding-top: 10px;
+
+  font-family: 'Dancing Script', sans-serif;
+
+  text-align: center;
+  font-weight: 700;
+}
+.planned_tour-details {
+  position: absolute;
+  padding: 30px;
+  top: 8%;
+  left: 58%;
+  background-color: #fff;
+  box-shadow: 0 2px 40px 0 rgba(4, 32, 66, 0.2);
+  width: 40%;
+  margin: 0px 40px 0px 0px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.planned_tour-details h1 {
+  /* padding-top: 20px; */
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  font-weight: 700;
+  font-size: 28px;
+}
+.planned_tour-details ul {
+  list-style: none;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.planned_tour-details ul li {
+  padding-bottom: 10px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.planned_tour-details-selected {
+  display: none;
+}
+.planned_form {
+  flex-basis: 75%;
+}
+
+.planned_tour-form .navigation_btn,
+.planned_tour-form-selected .navigation_btn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 12px 35px 0 35px;
+}
+
+.navigation_btn .previous-button,
+.navigation_btn .next-button {
+  padding: 10px 40px;
+  border-radius: 20px;
+  font-size: 16px;
+  font-family: 'andika';
+  box-shadow: inset 0 2px 15px 0px rgba(4, 32, 66, 0.2);
+}
+/*  */
+.navigation_btn .next-button {
+  /* background-color: #badc58; */
+  outline: none;
+  background: linear-gradient(to right, #fa9e1b, #a719ca, #8d4fff);
+  border: none;
+  color: #fff;
+  width: 155px;
+  font-family: 'andika';
+}
+
+.navigation_btn .previous-button {
+  background-color: #ccc;
+  outline: none;
+  border: none;
+  width: 155px;
+  font-family: 'andika';
+}
+.navigation_btn .previous-button:hover,
+.navigation_btn .next-button:hover,
+.navigation_btn .submit-button:hover {
+  font-family: 'andika';
+  cursor: pointer;
+}
+
+.navigation_btn .submit-button {
+  background: linear-gradient(to right, #fa9e1b, #a719ca, #8d4fff);
+  color: #fff;
+  padding: 10px 50px;
+  border-radius: 20px;
+  font-size: 18px;
+  font-family: 'andika';
+  box-shadow: inset 0 2px 15px 0px rgba(4, 32, 66, 0.2);
+  border: none;
+  outline: none;
+}
+
+.tour-info h1 {
+  font-size: 35px;
+  text-align: center;
+  font-family: 'Dancing Script';
+  padding: 10px 0px;
+}
+
+.tour-info {
+  padding: 0px;
+}
+
+.tour-info ul li {
+  text-decoration: none;
+  list-style: none;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  margin: 10px 0px;
+}
+.info-tour-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.info-button {
+  outline: none;
+  border: none;
+  padding: 10px;
+  background-color: turquoise;
+  border-radius: 5px;
+  font-size: 17px;
+  margin-right: 10px;
+}
+.info-buttons {
+  outline: none;
+  border: none;
+  padding: 10px;
+  background-color: #e74292;
+  border-radius: 5px;
+  font-size: 17px;
+}
+
+.formModal {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 700px;
+}
+.formModalr {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 900px;
+}
+.row1,
+.row2 {
+  padding: 0 50px;
+}
+
+@media (max-height: 578px) {
+  .Planned-form-container {
+    display: flex;
+    background-color: #ecf0f1;
+    padding: 60px 0;
+  }
+
+  .planned_tour-form {
+    flex-basis: 50%;
+    margin: auto;
+    background-color: #fff;
+    box-shadow: 0 2px 40px 0 rgba(4, 32, 66, 0.2);
+    display: flex;
+    flex-direction: column;
+    height: 440px;
+    border-radius: 20px;
+    z-index: 1;
+  }
+  .planned_tour-form-selected {
+    transform: translateX(-250px);
+    transition: 0.5s;
+  }
+  .planned_tour-form h1,
+  .planned_tour-form-selected h1 {
+    padding-top: 10px;
+    font-family: 'Dancing Script', sans-serif;
+    text-align: center;
+    font-weight: 700;
+    font-size: 28px;
+  }
+  .planned_tour-details {
+    position: absolute;
+    top: 10%;
+    left: 58%;
+    background-color: #fff;
+    box-shadow: 0 2px 40px 0 rgba(4, 32, 66, 0.2);
+    width: 40%;
+    height: auto;
+    border-radius: 10px;
+  }
+  .planned_tour-details h1 {
+    /* padding-top: 20px; */
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: 700;
+    font-size: 28px;
+  }
+  .planned_tour-details ul {
+    list-style: none;
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+  .planned_tour-details ul li {
+    padding-bottom: 10px;
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  .planned_tour-details-selected {
+    display: none;
+  }
+  .planned_form {
+    flex-basis: 70%;
+  }
+  .planned_tour-form .navigation_btn,
+  .planned_tour-form-selected .navigation_btn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .navigation_btn .previous-button,
+  .navigation_btn .next-button {
+    padding: 10px 40px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-family: 'andika';
+    box-shadow: inset 0 2px 15px 0px rgba(4, 32, 66, 0.2);
+  }
+
+  .navigation_btn .previous-button:hover,
+  .navigation_btn .next-button:hover {
+    cursor: pointer;
+    font-family: 'andika';
+  }
+}
+.modal-container {
+  /* width: 400px; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.modal-image {
+  width: 380px;
+  height: 50%;
+}
+
+.modal-close {
+  position: relative;
+  left: 96%;
+  bottom: 15px;
+  z-index: 2;
+}
+
+.modal-loginbutton {
+  outline: none;
+  border: none;
+  padding: 10px;
+  background-color: turquoise;
+  border-radius: 5px;
+  /* font-family: monospace; */
+  font-size: 17px;
+}
+
+.modal-loginbutton :hover,
+.modal-close:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .planned_tour-form {
+    padding: 0px;
+    width: 80%;
+  }
+}
+@media screen and (max-width: 620px) {
+  .planned_tour-form {
+    flex-basis: 90%;
+    width: 90%;
+    padding: 0px;
+    margin: 20px;
+  }
+  .planned_tour-form h1 {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .planned_tour-form {
+    width: 90%;
+    padding: 0px;
+    margin: 10px;
+  }
+  .navigation_btn .previous-button,
+  .navigation_btn .next-button {
+    padding: 10px 40px;
+    font-size: 16px;
+    margin: 30px 0px;
+  }
+
+  .navigation_btn .submit-button {
+    background-color: teal;
+    padding: 10px 50px;
+    border-radius: 20px;
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .planned_tour-form {
+    flex-basis: 100%;
+    /* width: 200px; */
+    padding: 20px;
+  }
+  .Planned-form-container {
+    width: 100%;
+    padding: 15px 0px;
+
+    margin: 0;
+  }
+  .navigation_btn .previous-button,
+  .navigation_btn .next-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 30px 10px;
+  }
+  .navigation_btn .submit-button {
+    background-color: teal;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 280px) {
+  .planned_tour-form {
+    flex-basis: 100%;
+    padding: 0px;
+  }
+}

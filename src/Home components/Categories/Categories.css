@@ -1,0 +1,120 @@
+.image {
+  height: 67px;
+  text-align: center;
+  width: 67px;
+  border-radius: 50%;
+}
+.title {
+  color: #fff;
+  /* align-items: center; */
+  margin-top: 10px;
+  flex-direction: column;
+}
+.categories {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  flex-wrap: wrap;
+  background-color: black;
+  padding: 20px 0px;
+}
+.cat-body {
+  border-right: 1px solid rgba(255, 255, 255, 0.13);
+  padding-right: 70px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.cat-bod {
+  padding-right: 70px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.cat-body p,
+.cat-bod p {
+  font-family: 'andika';
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0;
+}
+.cat-body p:hover,
+.cat-bod p:hover {
+  color: #ff7f00;
+  cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+  .cat-body,
+  .cat-bod {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+@media screen and (max-width: 620px) {
+  .cat-body,
+  .cat-bod {
+    padding: 0px 6px;
+  }
+  .cat-body p,
+  .cat-bod p {
+    font-size: 14px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* .categories {
+    height: 220px;
+  } */
+  .image {
+    height: 47px;
+    text-align: center;
+    width: 47px;
+    border-radius: 50%;
+  }
+  .cat-body {
+    width: 120px;
+    padding: 10px 0px 10px;
+    margin-bottom: 10px;
+  }
+  .cat-body p,
+  .cat-bod p {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .image {
+    height: 35px;
+    text-align: center;
+    width: 35px;
+    border-radius: 50%;
+  }
+  .cat-body {
+    flex-basis: 100%;
+    width: 100px;
+    margin: 20px 0px;
+    padding-right: 10px;
+  }
+  .cat-body p,
+  .cat-bod p {
+    font-size: 12px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 280px) {
+  .cat-body {
+    width: 85px;
+    margin: 20px 0px;
+    padding-right: 10px;
+  }
+  .image {
+    height: 30px;
+    width: 30px;
+  }
+
+  .cat-body p,
+  .cat-bod p {
+    font-size: 10px;
+    text-align: center;
+  }
+}

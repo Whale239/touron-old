@@ -1,0 +1,33 @@
+.resortMain__Home {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
+.resortMain__Home1 {
+  background-color: #eff8fa;
+  width: 70%;
+  padding: 30px;
+  overflow: scroll;
+  display: grid;
+  grid-template-columns: 260px 260px 260px;
+  justify-content: space-between;
+  grid-gap: 20px;
+  border-radius: 20px;
+}
+.resortMain__Home2 {
+  background-color: #fff;
+  width: 30%;
+}
+.resortMain__Home1_Img {
+  width: 260px;
+  height: 240px;
+  border-radius: 20px;
+}
+.resortMain__Home1_Img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}

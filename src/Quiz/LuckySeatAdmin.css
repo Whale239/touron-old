@@ -1,0 +1,40 @@
+.LuckySeatAdminMain-- {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100vh;
+}
+.showLuckyButtonR {
+  background-color: #d82e2f;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  padding: 5px 10px 10px 10px;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+  color: #fff;
+}
+.showLuckyButtonG {
+  background-color: #4dd637;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  padding: 5px 10px 10px 10px;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+  color: #fff;
+}
+.update_lucky_seeet_btnn {
+  padding: 5px 10px 10px 10px;
+  border-radius: 20px;
+  color: #000;
+  cursor: pointer;
+  background-color: #1b98f5;
+  text-align: center;
+  width: 200px;
+  margin-top: 20px;
+}

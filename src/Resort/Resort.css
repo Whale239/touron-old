@@ -1,0 +1,261 @@
+.resortMain {
+  padding: 40px 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.resortHead {
+  text-align: center;
+}
+.resortHead h1 {
+  color: #12b0e8;
+}
+.resortForm {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 40px;
+  justify-content: space-between;
+}
+.resortButton {
+  text-align: center;
+}
+.resortButton button {
+  border: none;
+  outline: none;
+  background-color: #12b0e8;
+  padding: 10px;
+  border-radius: 10px;
+}
+.resortField {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+  width: 20%;
+  position: relative;
+}
+.resorttField {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+  width: 45%;
+}
+.resortttField {
+  width: 30%;
+  border-right: 0.5px solid #8f9196;
+}
+.resortttFieldd {
+  width: 60%;
+}
+.resortttField input {
+  width: 80%;
+}
+.resortttFielddd input {
+  width: 40%;
+}
+.resortField input,
+.resortField select,
+.resortttField input,
+.resortttFieldd input,
+.resortttFielddd input {
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #0d0d0d;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+.inputtt {
+  border-bottom: 2px solid #0d0d0d;
+  border-radius: 10px;
+  padding: 10px;
+}
+.inputttt {
+  border-bottom: 2px solid #0d0d0d;
+  border-radius: 10px;
+  padding: 10px;
+  width: 82%;
+}
+.inputc {
+  position: absolute;
+  background-color: white;
+  z-index: 2;
+  top: 80px;
+  width: 250px;
+  text-align: center;
+  height: 250px;
+  overflow-y: scroll;
+  border: 0.5px solid #12b0e8;
+  border-radius: 10px;
+}
+.inputcc {
+  position: absolute;
+  background-color: white;
+  z-index: 2;
+  top: 80px;
+  width: 250px;
+  text-align: center;
+  height: 100px;
+  overflow-y: scroll;
+  border: 0.5px solid #12b0e8;
+  border-radius: 10px;
+}
+.inputccc {
+  position: absolute;
+  background-color: white;
+  z-index: 2;
+  top: 80px;
+  width: 250px;
+  text-align: center;
+  height: 120px;
+  overflow-y: scroll;
+  border: 0.5px solid #12b0e8;
+  border-radius: 10px;
+}
+.inputcccc {
+  position: absolute;
+  background-color: white;
+  z-index: 2;
+  top: 80px;
+  width: 250px;
+  text-align: center;
+  height: 250px;
+  overflow-y: scroll;
+  border: 0.5px solid #12b0e8;
+  border-radius: 10px;
+}
+
+.inputc li,
+.inputcc li,
+.inputccc li,
+.inputcccc li {
+  list-style: none;
+  padding: 10px;
+}
+.inputc li:hover,
+.inputcc li:hover,
+.inputccc li:hover,
+.inputcccc li:hover {
+  background-color: #12b0e8;
+  cursor: pointer;
+}
+.resortField label,
+.previewField label {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 0;
+  color: #12b0e8;
+}
+.resorttField label,
+.resortttField label,
+.resortttFieldd label,
+.resortttFielddd label {
+  font-size: 18px;
+  font-weight: 600;
+  color: #12b0e8;
+}
+.resortInclude {
+  display: flex;
+  align-items: center;
+}
+.addResortCategoryBtn {
+  background-color: #12b0e8;
+  padding: 5px 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.subResortField {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  width: 80%;
+  position: relative;
+}
+.subResortField h6 {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.subResortFieldd {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+.subResortFieldd h6 {
+  font-size: 15px;
+  margin-right: 5px;
+  margin-bottom: 0;
+}
+.subResortFieldd input {
+  cursor: pointer;
+}
+.resortForm2Title {
+  text-align: center;
+}
+.resortForm2Title h3 {
+  color: #12b0e8;
+}
+.subPreviewField {
+  padding: 10px 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.subLevel {
+  margin-right: 40px;
+  position: relative;
+}
+.removv {
+  background-color: red;
+  color: white;
+  font-size: 12px;
+  cursor: pointer;
+  padding: 5px;
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+}
+.resortImg {
+  width: 200px;
+  height: 130px;
+  margin-bottom: 10px;
+}
+.resortImg img {
+  width: 100%;
+  height: 100%;
+}
+.resortFea {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid #8f9196;
+}
+.resortForm1 {
+  padding: 40px 40px 0px;
+  display: flex;
+}
+.resortForm11 {
+  padding: 40px 40px 0px;
+}
+.resortShow {
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+}
+.resortShowS {
+  margin-right: 20px;
+}
+.resortShowS img {
+  width: 200px;
+  height: 120px;
+}
+.files {
+  display: flex;
+  align-items: center;
+}
+.filesU {
+  background-color: #12b0e8;
+  padding: 5px;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+}

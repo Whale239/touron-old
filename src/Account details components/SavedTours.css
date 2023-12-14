@@ -1,0 +1,46 @@
+.savedtour-container {
+  width: 100%;
+  min-height: 100vh;
+  background: #ff00cc; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #333399,
+    #ff00cc
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #333399,
+    #ff00cc
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  max-height: 100vh;
+  overflow: scroll;
+}
+.tours-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.tour {
+  flex-basis: 29%;
+  border-radius: 10px;
+  height: 300px;
+  margin: 20px;
+  background-color: white;
+}
+.tour img {
+  width: 100%;
+  height: 200px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.tourdetails h4 {
+  font-size: 20px;
+  padding: 0px 5px;
+}
+
+.tourdetails h6 {
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 10px 5px 5px;
+}

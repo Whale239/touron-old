@@ -1,0 +1,57 @@
+.quizDashMainHome {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+.quizDashMainHomeHead h3 {
+  color: #0c247b;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 20px;
+  font-weight: bold;
+}
+.quizDashMain {
+  width: 80%;
+  margin: 30px auto;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.quizDashMain thead tr {
+  background-color: #0c247b;
+  color: #f7cd2e;
+  border-radius: 10px;
+}
+.quizDashMain th,
+.quizDashMain td {
+  padding: 10px;
+}
+.quizDashMain tbody tr {
+  border-bottom: 1px solid #cad5e2;
+}
+.quizDashMainHomeDate {
+  align-self: flex-end;
+  padding: 20px;
+  padding-right: 60px;
+  display: flex;
+  align-items: center;
+}
+.quizDashMainHomeDate h6 {
+  color: #0c247b;
+  margin-right: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+.quizDashMainHomeDateRe {
+  padding: 40px;
+}
+.quizDashMainHomeDateRe h6 {
+  color: #0c247b;
+  margin-right: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}

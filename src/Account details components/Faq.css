@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.faq-container {
+  height: 100vh;
+  overflow: scroll;
+  width: 100%;
+  background: #136a8a;
+  background: -webkit-linear-gradient(to right, #267871, #136a8a);
+  background: linear-gradient(to right, #267871, #136a8a);
+  /* background: #24c6dc;
+  background: -webkit-linear-gradient(to right, #514a9d, #24c6dc);
+  background: linear-gradient(to right, #514a9d, #24c6dc); */
+}
+
+.faq-title {
+  padding: 20px 30px;
+}
+
+.faq-title h1 {
+  color: azure;
+}
+.faq-types {
+  /* width: 100%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.general:hover,
+.booking:hover,
+.support:hover {
+  cursor: pointer;
+}
+
+.general h6,
+.booking h6,
+.support h6 {
+  color: white;
+  padding: 10px 20px;
+  font-size: 23px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.general {
+  border-bottom-left-radius: 15px;
+}
+.support {
+  border-bottom-right-radius: 15px;
+}
+
+.questions-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.questions {
+  background-color: white;
+  width: 90%;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+
+.questions h1 {
+  font-size: 20px;
+  color: #333945;
+  padding: 18px;
+  font-family: 'newyorklargeblack';
+  margin: 0;
+}
+
+.questions p {
+  font-size: 18px;
+  margin-top: 5px;
+  color: #0009;
+  padding: 0px 20px;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-family: 'andika';
+}
+
+.faq-question {
+  display: flex;
+  justify-content: space-between;
+  background-color: #00000010;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.que-icon {
+  margin-right: 20px;
+}
+
+.que-icon:hover {
+  cursor: pointer;
+}
+@media screen and (max-width: 620px) {
+  .questions h1 {
+    font-size: 18px;
+    padding: 18px;
+  }
+  .general h6,
+  .booking h6,
+  .support h6 {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .questions h1 {
+    font-size: 16px;
+    padding: 16px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .questions h1 {
+    font-size: 15px;
+    padding: 15px;
+  }
+}
+@media screen and (max-width: 280px) {
+  .account-title h4 {
+    font-size: 13px;
+  }
+  .general h6,
+  .booking h6,
+  .support h6 {
+    font-size: 18px;
+    padding: 10px 10px;
+  }
+}

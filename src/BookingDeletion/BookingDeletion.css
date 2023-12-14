@@ -1,0 +1,61 @@
+.bookingDeletion_form_mainzz_ss {
+  position: relative;
+}
+.bookingDeletion_form_mainzz {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'andika';
+}
+.bookingDeletion_form_mainzz_f {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  padding: 10px;
+  border-radius: 10px;
+}
+.bookingDeletion_form_mainzz_p {
+  font-size: 20px;
+}
+.bookingDeletion_form_mainzz_btn1,
+.bookingDeletion_form_mainzz_btn2 {
+  outline: none;
+  border: none;
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+}
+.bookingDeletion_form_mainzz_btn1 {
+  background-color: #d82e2f;
+}
+.bookingDeletion_form_mainzz_btn2 {
+  background-color: #12b0e8;
+}
+.bookingDeletion_table_mainsss {
+  width: 100%;
+  text-align: center;
+}
+.bookingDeletion_table_tr {
+  background-color: #12b0e8;
+}
+.bookingDeletion_table_tr1 {
+  background-color: white;
+  border-bottom: 1px solid #cad5e2;
+}
+.bookingDeletion_table_mainsss th,
+.bookingDeletion_table_mainsss td {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.bookingDeletion_table_tr1_dels {
+  cursor: pointer;
+  color: #d82e2f;
+  font-size: 20px;
+}

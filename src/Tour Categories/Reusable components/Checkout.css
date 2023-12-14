@@ -1,0 +1,16 @@
+.checkout-image {
+  height: 35%;
+  width: 35%;
+  border: 'none';
+}
+.que2 input::-webkit-input-placeholder {
+  color: #ccc;
+  font-size: 14px;
+}
+@media (max-height: 578px) {
+  .checkout-image {
+    height: 10%;
+    width: 20%;
+    border: 'none';
+  }
+}

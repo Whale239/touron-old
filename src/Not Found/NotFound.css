@@ -1,0 +1,66 @@
+.notfound {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+.notfound h3 {
+  font-family: 'newyorklargeblack';
+  font-weight: 600;
+}
+.notfoundimg {
+  width: 50%;
+  height: 50%;
+}
+.notfoundimg img {
+  width: 100%;
+  height: 100%;
+}
+.notfound button {
+  outline: none;
+  border: none;
+  background-color: coral;
+  padding: 10px;
+  border-radius: 30px;
+  cursor: pointer;
+  color: #fff;
+  font-family: 'andika';
+}
+@media screen and (max-width: 768px) {
+  .notfound h3 {
+    font-size: 23px;
+  }
+}
+@media screen and (max-width: 620px) {
+  .notfound h3 {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .notfoundimg {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 360px) {
+  .notfound h3 {
+    font-size: 18px;
+  }
+  .notfoundimg {
+    width: 70%;
+    height: 55%;
+  }
+}
+@media screen and (max-width: 280px) {
+  .notfound h3 {
+    font-size: 16px;
+  }
+  .notfound button {
+    font-size: 14px;
+  }
+  .notfoundimg {
+    width: 70%;
+    height: 45%;
+  }
+}

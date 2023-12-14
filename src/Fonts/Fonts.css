@@ -1,0 +1,65 @@
+@font-face {
+  font-family: 'newyorklargeblack';
+  src: url('./NewYorkLargeBlack.otf');
+}
+@font-face {
+  font-family: 'playscript';
+  src: url('./Playlist\ Script.otf');
+}
+@font-face {
+  font-family: 'Mont-light';
+  src: url('./Mont-light.otf');
+}
+@font-face {
+  font-family: 'Mont';
+  src: url('./Mont-bold.otf');
+}
+@font-face {
+  font-family: 'Selima';
+  src: url('./Selima\ .otf');
+}
+@font-face {
+  font-family: 'Apricot';
+  src: url('./Apricot.ttf');
+}
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+* {
+  margin: 0px;
+  padding: 0px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+  border-radius: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

@@ -1,0 +1,80 @@
+.policyMain {
+  /* background-image: url("../assests/privacy.jpg"); */
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/touronapp-248e4.appspot.com/o/privacy.jpg?alt=media&token=bc12c12e-f22e-451c-a709-7cae9efbc1f2');
+  height: 90vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: cadetblue;
+  background-blend-mode: multiply;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8em 0;
+}
+.policyMain h1 {
+  font-family: 'newyorklargeblack';
+  font-weight: bold;
+  color: #fff;
+  font-size: 40px;
+}
+.privacyContent {
+  background-color: #fff;
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+  top: -50px;
+  border-radius: 30px;
+  padding: 2em;
+  box-shadow: 0px 10px 10px 8px #ccc;
+}
+.privacyContent h3 {
+  font-family: 'newyorklargeblack';
+  font-weight: bold;
+  font-size: 2rem;
+}
+.privacyContent h5 {
+  font-family: 'newyorklargeblack';
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.privacyContent p {
+  font-family: 'Andika';
+  font-size: 1.1rem;
+}
+@media screen and (max-width: 620px) {
+  .policyMain h1 {
+    font-size: 2rem;
+  }
+  .privacyContent h3 {
+    font-size: 1.4rem;
+  }
+  .privacyContent h5 {
+    font-size: 1.3rem;
+  }
+  .privacyContent p {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .privacyContent h3 {
+    font-size: 1.2rem;
+  }
+  .privacyContent h5 {
+    font-size: 1.1rem;
+  }
+  .privacyContent p {
+    font-size: 0.9rem;
+  }
+}
+@media screen and (max-width: 280px) {
+  .privacyContent h3 {
+    font-size: 1.1rem;
+  }
+  .privacyContent h5 {
+    font-size: 1rem;
+  }
+  .privacyContent p {
+    font-size: 0.9rem;
+  }
+}

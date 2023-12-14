@@ -1,0 +1,474 @@
+.requests-table Table {
+  box-shadow: 0 0 2rem 0 rgba(136, 152, 170, 0.15) !important;
+  /* position: absolute; */
+  width: 97% !important;
+  top: -150px;
+}
+.exportCont {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.datesCont {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.datesCont div:nth-child(1) {
+  padding-right: 10px;
+}
+.export {
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  background-color: #0057ff;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 2px;
+}
+.filter-section label {
+  color: #fff;
+}
+.modal-req td {
+  width: 150px;
+}
+.req-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  cursor: pointer;
+  padding: 10px;
+}
+.req-single h6 {
+  padding: 5px;
+  border-bottom: 2px solid black;
+}
+.req-single-none h6 {
+  padding: 5px;
+  border-bottom: 2px solid white;
+}
+.req-travel-main {
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 70px 0px;
+}
+.req-travel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 2px 8px #ccc;
+  /* margin: 80px; */
+  border-radius: 10px;
+  padding: 20px;
+  color: #fff;
+}
+.req-onward-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  padding: 15px 0;
+}
+.req-onward-details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.req-onward-type {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.req-onward-modeName h5 {
+  padding-top: 10px;
+  margin: 0;
+}
+.req-travel-onward h5 {
+  margin: 0;
+  padding-bottom: 10px;
+}
+.slide-taxi {
+  width: 500px;
+  height: 340px;
+  border-radius: 10px;
+}
+.req-taxi {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px 40px 40px;
+  font-family: 'andika';
+}
+.req-taxi-image {
+  width: 500px;
+  height: 340px;
+  border-radius: 10px;
+}
+.req-taxi-image img {
+  width: 100%;
+  height: 100%;
+  opacity: 0.9;
+  border-radius: 10px;
+}
+.req-plan-main {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  /* height: 70vh; */
+}
+.req-plan-image {
+  width: 500px;
+  height: 300px;
+}
+.req-plan-image img {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.req-plan-main h3 {
+  font-family: 'andika';
+  font-size: 18px;
+  padding: 20px;
+  text-align: center;
+}
+.taxiInform {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 40%;
+}
+.taxi-Informs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 2px 8px #ccc;
+  border-radius: 10px;
+  padding: 30px;
+}
+.taxi-single-infrms-main {
+  display: flex;
+  border-top: 1px solid #ccc;
+}
+.taxi-single-infrms {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid #ccc;
+  padding: 0 20px;
+  margin-top: 10px;
+}
+.taxi-Informs-head h5,
+.taxi-condition-head h5 {
+  font-family: 'newyorklargeblack';
+}
+.taxi-single-infrms h6,
+.taxi-single-infrm h6 {
+  margin: 0;
+  padding: 10px 0;
+  font-family: 'andika';
+}
+
+.taxi-single-infrm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin-top: 10px;
+}
+.taxi-condition {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+.taxi-condition-content {
+  border-top: 1px solid #ccc;
+  height: 100px;
+  overflow: auto;
+  padding: 10px;
+  text-align: center;
+}
+.req-hotel {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0 10px 0;
+}
+.req-hotels-name {
+  padding-left: 80px;
+  background-color: #fff;
+}
+.slide-hotel {
+  width: 450px;
+  height: 300px;
+  border-radius: 10px;
+}
+.req-hotels-image {
+  width: 450px;
+  height: 300px;
+  border-radius: 10px;
+}
+.req-hotels-image img {
+  width: 100%;
+  height: 100%;
+  opacity: 0.9;
+  border-radius: 10px;
+}
+.req-hotel-infrms {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-basis: 60%;
+}
+.req-hotel-infrms-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  width: 450px;
+}
+.req-hotel-infrms-head h5 {
+  font-family: 'andika';
+}
+.req-hotel-infrms-head h4 {
+  font-family: 'newyorklargeblack';
+  font-weight: bold;
+  color: coral;
+}
+.slide-hotel-single {
+  display: flex;
+  padding: 30px 20px;
+  align-items: center;
+  justify-content: space-evenly;
+  box-shadow: 0px 2px 8px #ccc;
+  margin: 10px 20px;
+  border-radius: 10px;
+}
+.req-hotel-infrms-check {
+  display: flex;
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+}
+.req-hotel-infrms-itern {
+  display: flex;
+}
+.req-hotel-infrms-room,
+.req-hotel-infrms-meal,
+.req-hotel-infrms-checki {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin-top: 10px;
+}
+.req-hotel-infrms-check h6 {
+  font-family: 'andika';
+}
+.req-hotel-infrms-room {
+  border-right: 1px solid #ccc;
+  width: 200px;
+}
+.req-hotel-infrms-meal {
+  width: 200px;
+}
+.req-hotel-infrms-room h6,
+.req-hotel-infrms-meal h6 {
+  text-align: center;
+  font-family: 'andika';
+}
+
+.req-hotel-infrms-checki:nth-child(2) {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.req-hotel-infrms-checki:nth-child(2) h6 {
+  margin: 0;
+}
+.req-hotell-icon {
+  font-size: 22px;
+  margin: 5px;
+}
+.hotel-name-rating {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.req-hotel-infrms-locate {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.req-head h6 {
+  font-family: 'andika';
+}
+
+.paginations {
+  margin-top: -45%;
+  bottom: 0 !important;
+  /* margin-right: 20px; */
+}
+.priorClass {
+  width: 300px;
+}
+.priorClass p {
+  font-family: 'Andika';
+  font-size: 15px;
+  color: red;
+}
+
+@media screen and (max-width: 768px) {
+  .status-flex {
+    display: flex;
+    flex-direction: column;
+  }
+  .req-travel-main {
+    flex-direction: column;
+  }
+  .req-travel {
+    margin-bottom: 20px;
+  }
+  .req-plan-image {
+    width: 400px;
+    height: 200px;
+  }
+  .req-plan-main h3 {
+    font-size: 16px;
+  }
+  .slide-hotel-single {
+    flex-direction: column;
+  }
+  .slide-hotel {
+    width: 400px;
+    height: 250px;
+  }
+  .req-hotels-image {
+    width: 400px;
+    height: 250px;
+  }
+  .req-hotel-infrms {
+    padding-top: 20px;
+  }
+  .req-taxi {
+    flex-direction: column;
+  }
+  .slide-taxi {
+    width: 400px;
+    height: 300px;
+  }
+  .req-taxi-image {
+    width: 400px;
+    height: 300px;
+  }
+  .taxi-Informs {
+    margin-top: 35px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .req-plan-image {
+    width: 300px;
+    height: 200px;
+  }
+  .req-plan-main h3 {
+    font-size: 15px;
+  }
+  .req-travel h5 {
+    font-size: 14px;
+  }
+  .req-travel h6 {
+    font-size: 13px;
+  }
+  .req-travel h3 {
+    font-size: 20px;
+  }
+  .slide-hotel {
+    width: 250px;
+    height: 200px;
+  }
+  .req-hotels-image {
+    width: 250px;
+    height: 200px;
+  }
+  .req-hotel-infrms-check h6,
+  .req-hotel-infrms-itern h6 {
+    font-size: 12px;
+  }
+  .slide-taxi {
+    width: 300px;
+    height: 200px;
+  }
+  .req-taxi-image {
+    width: 300px;
+    height: 200px;
+  }
+  .taxi-Informs {
+    padding: 15px 5px 0px;
+  }
+  .taxi-Informs h5 {
+    font-size: 16px;
+  }
+  .taxi-Informs h6 {
+    font-size: 12px;
+  }
+  .taxi-Informs p {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .req-plan-image {
+    width: 250px;
+    height: 150px;
+  }
+  .req-hotel-infrms-check h6,
+  .req-hotel-infrms-itern h6 {
+    font-size: 11px;
+  }
+  .req-hotel-infrms-head {
+    width: 300px;
+  }
+  .req-hotel-infrms-room {
+    width: 125px;
+  }
+  .req-hotel-infrms-meal {
+    width: 125px;
+  }
+  .slide-taxi {
+    width: 280px;
+    height: 200px;
+  }
+  .req-taxi-image {
+    width: 280px;
+    height: 200px;
+  }
+}
+@media screen and (max-width: 280px) {
+  .req-plan-image {
+    width: 150px;
+    height: 150px;
+  }
+  .req-plan-main h3 {
+    font-size: 13px;
+  }
+}

@@ -1,0 +1,40 @@
+.parkImage {
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+  border-radius: 30px;
+}
+.parkName {
+  font-size: 18px;
+  font-family: Andika;
+  margin: 10px 0;
+  text-align: center;
+}
+.pc {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 30px;
+}
+.parkContainer {
+  display: flex;
+  /* flex-direction: row; */
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+.park {
+  width: 25%;
+  margin: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.park h4 {
+  font-family: 'andika';
+  font-size: 18px;
+}

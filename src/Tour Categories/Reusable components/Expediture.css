@@ -1,0 +1,73 @@
+.expediture-img {
+  height: 10%;
+  width: 20%;
+}
+
+.destination-questionss {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  padding: 40px 0;
+}
+.destination-questionss h6 {
+  flex-basis: 50%;
+  font-size: 15px;
+}
+
+.destination-questionss input {
+  width: 120px;
+}
+.destination-container h4 {
+  font-family: 'andika';
+  font-size: 16px;
+}
+
+/* .exp {
+    align-self: flex-end;
+    margin-top: 50px;
+  } */
+@media (max-height: 578px) {
+  .expediture-img {
+    height: 10%;
+    width: 20%;
+  }
+
+  .destination-questionss {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .destination-questionss h6 {
+    margin-right: 5px;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .destination-questionss {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .destination-questionss h6 {
+    margin: 0px;
+  }
+  .destination-questionss input {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 280px) {
+  .destination-questionss {
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+    padding: 0 10px;
+  }
+  .destination-questionss h6 {
+    margin: 0px;
+    font-size: 16px;
+  }
+  .destination-questionss input {
+    width: 45%;
+  }
+}

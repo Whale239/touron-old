@@ -1,0 +1,307 @@
+.lucky_seat_allMain {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+.lucky_seat_main_1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+}
+.lucky_seat_starImg {
+  width: 200px;
+  height: 200px;
+}
+.lucky_seat_starImg img {
+  width: 100%;
+  height: 100%;
+}
+.lucky_seat_main_1_sub {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.lucky_seat_month {
+  background-color: #0c247b;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  border-radius: 20px;
+  box-shadow: 0px 2px 8px rgb(44, 39, 39);
+}
+.lucky_seat_month p {
+  margin-bottom: 0;
+  color: #fff;
+  font-weight: bold;
+}
+.lucky_seat_month_cal_icon {
+  color: #fff;
+  font-size: 30px;
+}
+.lucky_seat_main_1_sub_h5 {
+  color: #0c247b;
+  font-weight: bold;
+}
+.lucky_seat_main_1_sub_p {
+  font-family: 'Apricot';
+  margin-bottom: 0;
+  margin-top: 6px;
+  font-weight: 600;
+}
+.lucky_seat_main_1_subss {
+  align-self: flex-start;
+}
+.lucky_seat_main_1_subss_1 {
+  display: flex;
+  background-color: #0c247b;
+  align-items: center;
+  margin-left: 5px;
+  width: 300px;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  padding: 7px;
+  padding-right: 20px;
+  padding-left: 40px;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.lucky_seat_main_1_subss_1 p {
+  color: #fff;
+  margin-bottom: 0;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: 'League Spartan', sans-serif;
+}
+.lucky_seat_main_1_subss_1_span {
+  color: yellow;
+}
+.lucky_seat_main_1_subss_icon {
+  color: #fff;
+}
+.lucky_seat_main_1_subss_btn {
+  border: none;
+  outline: none;
+  background-color: #02b18a;
+  font-family: 'League Spartan', sans-serif;
+  color: #fff;
+  padding: 10px 20px 5px 20px;
+  font-weight: bold;
+  border-radius: 20px;
+  box-shadow: 0px 2px 8px rgb(138, 129, 129);
+}
+.luckyySendMainDD {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.luckyySendMainD {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+.prevquizluc {
+  transform: rotate(180deg);
+  font-size: 28px;
+  color: black;
+}
+.quizSendluc {
+  font-size: 28px;
+}
+.luckyPgg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid #000000;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 20px 10px;
+}
+.luckyHelloo {
+  color: #0c247b;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.luckyHelloInn {
+  color: #0c247b;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-align: justify;
+}
+.luckyyInputMaa {
+  border: 1px solid #000000;
+  padding: 10px;
+  border-radius: 30px;
+  width: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+.luckyyInputt {
+  border: none;
+  outline: none;
+  width: 85%;
+  font-size: 15px;
+}
+.luckyyInputt::placeholder {
+  color: #d9d9d9;
+  font-size: 14px;
+}
+.luckydrawIconn {
+  color: #d9d9d9;
+}
+.genderLuckyy {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.genderLuckySub1y {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.genderLuckySub1y p,
+.genderLuckySub111y p {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-color: #0c247b;
+  text-decoration-style: solid;
+  color: #0c247b;
+  margin-bottom: 20px;
+}
+.genderLuckySub111y {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-bottom: 22px;
+}
+.genderLuckySub11 {
+  display: flex;
+}
+.genderLuckySub11 p {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  border-bottom: none;
+  color: #d9d9d9;
+}
+.feeimg {
+  width: 60px;
+  height: 80px;
+  border: 1px solid #000000;
+  padding: 10px;
+  border-radius: 20px;
+}
+.feeimg img {
+  width: 100%;
+  height: 100%;
+}
+.feeimgg {
+  width: 60px;
+  height: 80px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #0c247b;
+}
+.feeimgg img {
+  width: 100%;
+  height: 100%;
+}
+.luckySubmitBtn {
+  background-color: #0c247b;
+  padding: 10px;
+  width: 350px;
+  border-radius: 30px;
+  text-align: center;
+  /* margin-top: 20px; */
+  border: none;
+  outline: none;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+.luckySubmitBtnn {
+  background-color: #0c247b;
+  padding: 10px;
+  width: 350px;
+  border-radius: 30px;
+  text-align: center;
+  margin-top: 20px;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+.quiz-req p {
+  margin: 15px 0;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  color: red;
+  font-weight: bold;
+}
+.input_lucky-tagg {
+  display: none;
+}
+.doctag_lucky {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+.doctag_lucky img {
+  width: 10px;
+  height: 10px;
+}
+.doctag_lucky p {
+  font-family: 'Montserrat', sans-serif;
+  color: #000000;
+  font-size: 13px;
+  margin-bottom: 0;
+  margin-left: 2px;
+  text-align: justify;
+}
+.njoyBtnLink {
+  text-decoration: none;
+}
+.lucky_seat_fetchingg {
+  font-family: 'Montserrat', sans-serif;
+  color: #0c247b;
+  font-size: 20px;
+  font-weight: bold;
+}
+.lucku_seat_reveal {
+  font-family: 'Montserrat', sans-serif;
+  color: #0c247b;
+  font-size: 20px;
+  font-weight: bold;
+}

@@ -1,0 +1,10 @@
+.prepare_Qns_main {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+.prepare_Qns_line {
+  width: 1px;
+  height: auto;
+  background-color: black;
+}

@@ -1,0 +1,13 @@
+.ResortConMain {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ResortConMain_btn {
+  border: none;
+  outline: none;
+  padding: 10px;
+  background-color: #5da3fa;
+  color: white;
+}

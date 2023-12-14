@@ -1,0 +1,21 @@
+.circleBack {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.circleAni {
+  width: 80px;
+  height: 80px;
+  border: 8px solid gray;
+  border-radius: 50%;
+  border-top-color: #000;
+  animation: spin 1s linear infinite;
+  margin-bottom: 20px;
+}
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}

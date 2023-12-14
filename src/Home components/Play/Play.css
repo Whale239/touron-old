@@ -1,0 +1,36 @@
+.play {
+  /* background-image: url("../../assests/earth1.png"); */
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/touronapp-248e4.appspot.com/o/earth1.png?alt=media&token=87147e6d-0b99-45db-98c6-4c89ff426271');
+  height: 70vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-blend-mode: multiply;
+  background-color: skyblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.play h1 {
+  color: #fff;
+  font-family: 'newyorklargeblack';
+}
+.play button {
+  outline: none;
+  border: none;
+  background: transparent;
+  /* background-color: coral; */
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-family: 'andika';
+  color: #fff;
+  border: 1.5px solid #22cb5c;
+  transition: 0.5s;
+  margin-top: 10px;
+}
+.play button:hover {
+  color: #000;
+  background-color: #fff;
+}

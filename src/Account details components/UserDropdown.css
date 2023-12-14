@@ -1,0 +1,31 @@
+.user-dropdowns-menu {
+  background-color: #fff;
+  top: 90px;
+  list-style: none;
+  right: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 5px;
+}
+.user-dropdowns-menu li {
+  cursor: pointer;
+  text-align: center;
+  padding: 5px 16px;
+  display: flex;
+  color: black;
+  text-decoration: none;
+  font-family: 'andika';
+}
+.user-dropdowns-menu li:hover {
+  background-color: #ff7f00;
+}
+
+.user-dropdown-link:hover {
+  text-decoration: none;
+  color: #000;
+}
+
+.account-title h4 {
+  margin-left: 30px;
+}

@@ -1,0 +1,71 @@
+.nice-dates-day {
+  color: #111;
+}
+.nice-dates-popover {
+  box-shadow: none;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  max-width: 380px;
+  transition: none;
+}
+
+.date-range img {
+  width: 30%;
+  height: 30%;
+  /* margin-bottom: 50px; */
+}
+
+.date-range {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.date-range input {
+  margin: 0 20px;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+.date-container span {
+  font-size: 30px;
+  margin-top: 200px;
+}
+
+.from-date,
+.to-date {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.date-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0;
+}
+
+.from-date label,
+.to-date label {
+  font-size: 20px;
+  font-family: 'newyorklargeblack';
+}
+
+@media screen and (max-width: 620px) {
+  .date-range input {
+    margin: 0 auto;
+    padding: 6px;
+    border-radius: 4px;
+    width: 85%;
+  }
+}
+@media screen and (max-width: 360px) {
+  .from-date label,
+  .to-date label {
+    font-size: 16px;
+  }
+}

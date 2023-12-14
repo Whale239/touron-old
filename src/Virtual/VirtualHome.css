@@ -1,0 +1,62 @@
+.virtualHome {
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/touronapp-248e4.appspot.com/o/vrimg.jpg?alt=media&token=e342ff37-7bbb-4ab9-b128-042f0e62a5bf');
+  height: 75vh;
+  width: 100%;
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+  background-blend-mode: multiply;
+  background-color: skyblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+/* .virtualHome::before {
+  height: 8%;
+  top: -38px;
+  left: 0;
+  right: 0;
+  content: '';
+  position: absolute;
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, #000000 100%);
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, #000000 100%);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, #000000 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#000000', GradientType=0);
+} */
+.virtualHome h1 {
+  color: #fff;
+  font-family: 'newyorklargeblack';
+}
+.virtualHome button {
+  outline: none;
+  border: none;
+  background: transparent;
+  /* background-color: coral; */
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-family: 'andika';
+  color: #fff;
+  border: 1.5px solid #22cb5c;
+  transition: 0.5s;
+  margin-top: 10px;
+}
+.virtualHome button {
+  outline: none;
+  border: none;
+  background: transparent;
+  /* background-color: coral; */
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-family: 'andika';
+  color: #fff;
+  border: 1.5px solid #fff;
+  transition: 0.5s;
+  margin-top: 10px;
+}
+.virtualHome button:hover {
+  color: #000;
+  background-color: #fff;
+  border: 1.5px solid #000;
+}

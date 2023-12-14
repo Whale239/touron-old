@@ -1,0 +1,123 @@
+.story {
+  width: 95vw;
+  height: auto;
+  min-height: 98vh;
+  left: 50%;
+  right: auto;
+  transform: translate(-50%, 0%);
+}
+.scontainer {
+  display: flex;
+  width: 100%;
+  /* justify-content: space-around; */
+  flex-wrap: wrap;
+  padding-top: 20px;
+}
+
+.singleSView {
+  margin: 10px;
+  /* flex-basis: 25%; */
+  cursor: pointer;
+}
+
+.storyIcon {
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+}
+.storyContentContainer {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.storyView {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 20%;
+  margin: 10px;
+}
+.storyImage {
+  height: 300px;
+  width: 200px;
+  position: relative;
+}
+.storyImage img {
+  width: 100%;
+  border-radius: 10px;
+  height: 100%;
+}
+
+.storyImage::after {
+  width: 100%;
+  border-radius: 10px;
+  height: 100%;
+  /* opacity: 0.8; */
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  background-color: #0003;
+}
+.storyDetails {
+  position: absolute;
+  bottom: 0%;
+  color: #fff;
+  padding: 15px 10px;
+  z-index: 10;
+}
+.storyDetails h1 {
+  font-family: 'andika';
+  font-size: 25px;
+  padding: 5px 0px;
+}
+
+.storyDetails h5 {
+  font-size: 15px;
+  /* padding: 5px; */
+}
+.storyButtons {
+  display: flex;
+  width: 100%;
+  /* justify-content: space-around; */
+  padding-top: 20px;
+}
+.storyButtonContainer {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+.storyButton button {
+  border: none;
+  align-self: flex-end;
+  outline: none;
+  background-color: #0057ff;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 30px;
+}
+
+.storyForm {
+  position: absolute;
+  background-color: #fff;
+  top: 15%;
+  z-index: 20;
+  right: 2%;
+  padding: 0.5em 3em;
+  box-shadow: 2px 2px 10px 0px #ccc;
+  border-radius: 10px;
+  width: 30%;
+}
+.storyContentContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.storyCategoryImage {
+  height: 300px;
+  border-radius: 10px;
+  width: 200px;
+}
+.catTitle {
+  font-family: 'andika';
+  font-size: 20px;
+  padding: 10px 0px;
+}

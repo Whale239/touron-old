@@ -1,0 +1,419 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.request-container {
+  position: relative;
+  width: 100%;
+  max-height: 100vh;
+  overflow: scroll;
+}
+.requests-info {
+  height: 73vh;
+  width: 100%;
+  background: #24c6dc;
+  background: -webkit-linear-gradient(to right, #514a9d, #24c6dc);
+  background: linear-gradient(to right, #514a9d, #24c6dc);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.requests-info-visa {
+  height: 400px;
+  width: auto;
+
+  background: #c0392b; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #8e44ad,
+    #c0392b
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #8e44ad,
+    #c0392b
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.requests-body-container {
+  display: flex;
+  /* flex-wrap: wrap; */
+}
+.card-body {
+  flex-basis: 30%;
+  background-color: white;
+  border-radius: 5px;
+  /* height: 120px; */
+  max-height: 120px;
+  display: flex;
+  margin: 0px 20px;
+  justify-content: space-between;
+}
+.card-title {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.card-title h1 {
+  color: #00000080;
+}
+.card-title h5 {
+  color: black;
+  font-size: 16px;
+}
+.card-logo {
+  border-radius: 50px;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo1 {
+  background-color: #f5365c;
+}
+.logo2 {
+  background-color: #fb6340;
+}
+.logo3 {
+  background-color: #ffd600;
+}
+.logo4 {
+  background-color: #11cdef;
+}
+.requests-tables {
+  padding: 50px 20px;
+}
+.requests-table {
+  padding: 50px 20px;
+  position: relative;
+}
+
+.requests-table Table {
+  box-shadow: 0 0 2rem 0 rgba(136, 152, 170, 0.15) !important;
+  position: absolute;
+  top: -100px;
+  width: 97%;
+}
+.requests-tables Table {
+  box-shadow: 0 0 2rem 0 rgba(136, 152, 170, 0.15) !important;
+  position: absolute;
+  top: 100px;
+  width: 97%;
+}
+.requests-table.support Table {
+  box-shadow: 0 0 2rem 0 rgba(136, 152, 170, 0.15) !important;
+  position: absolute;
+  top: 10px;
+  width: 97%;
+}
+.requests-table tr,
+.requests-tables tr {
+  height: 30px;
+  text-align: center;
+  justify-content: center;
+}
+.requests-table th,
+.requests-tables th {
+  background-color: #f6f9fc;
+  padding: 30px 0px;
+}
+.requests-table td,
+.requests-tables td {
+  padding: 10px 0px;
+}
+.pagination {
+  margin-top: 20%;
+  margin-right: 20px;
+}
+.page-link {
+  background-color: white;
+  border-radius: 100px;
+  margin-left: 8px;
+  width: 33px;
+  height: 35px;
+}
+.page-link i {
+  color: black;
+}
+.noFind {
+  width: 100%;
+  height: 50vh;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #c0392b;
+  background: -webkit-linear-gradient(to right, #8e44ad, #c0392b);
+  background: linear-gradient(to right, #8e44ad, #c0392b);
+}
+
+.noFind button {
+  background-color: transparent;
+  margin: 1rem 0;
+  padding: 1rem;
+  border-radius: 20px;
+  outline: none;
+  border: 2px solid;
+}
+
+.modal-visadetails h1 {
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 30px;
+}
+.modal-title {
+  color: #2b3139;
+}
+.status .form-control {
+  width: 200px;
+  margin: 25px 0px;
+}
+.modal-visadetails .update-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  justify-content: space-evenly;
+}
+.duplicateDelete {
+  color: red;
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.modal-request {
+  width: 200%;
+  left: 50%;
+  right: auto;
+  transform: translate(-50%, 0%);
+}
+
+.modal-req {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 20px;
+}
+
+.bg-white .loading {
+  width: 100%;
+  height: 50vh;
+  color: #fff;
+  border-radius: 0px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #c0392b;
+  margin-top: -1px;
+  background: -webkit-linear-gradient(to right, #8e44ad, #c0392b);
+  background: linear-gradient(to right, #8e44ad, #c0392b);
+}
+.bg-white .req-loading {
+  width: 100%;
+  height: 50vh;
+  color: #fff;
+  border-radius: 0px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #c0392b;
+  margin-top: -1px;
+  background: -webkit-linear-gradient(to right, #514a9d, #24c6dc);
+  background: linear-gradient(to right, #514a9d, #24c6dc);
+  font-size: 20px;
+  font-weight: 500;
+}
+.status {
+  display: flex;
+}
+.status-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.update-button {
+  margin: 25px;
+}
+.del-button {
+  margin-bottom: 5px;
+}
+.title-iternary {
+  color: #0045be;
+}
+.title-companions {
+  color: #f5c160;
+}
+.title-Information {
+  color: #e8290b;
+}
+.title-Information-icon,
+.title-companions-icon,
+.title-iternary-icon {
+  font-size: 30px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+}
+.user-status {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.user-status h1 {
+  border: 2px solid #2b3139;
+  padding: 8px;
+  border-radius: 10px;
+}
+
+.filter-section {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+@media screen and (max-width: 1024px) {
+  .modal-request {
+    width: 700px;
+  }
+  .modal-req {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .iternary {
+    width: 50%;
+    padding: 10px;
+  }
+  .companions {
+    width: 50%;
+    padding: 10px;
+  }
+  .Information {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .pagination {
+    margin-top: 30%;
+    margin-right: 20px;
+  }
+
+  .requests-body-container {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .card-body {
+    flex-basis: 30%;
+    max-width: 250px;
+    margin: 10px 20px;
+  }
+
+  .requests-table Table {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+  }
+  .modal-request {
+    width: 500px;
+  }
+  .modal-req {
+    display: flex;
+    flex-direction: column;
+  }
+  .iternary {
+    width: 100%;
+    padding: 10px;
+  }
+  .companions {
+    width: 100%;
+    padding: 10px;
+  }
+  .Information {
+    width: 100%;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .pagination {
+    margin-top: 53%;
+    margin-right: 20px;
+  }
+
+  .requests-body-container {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .card-body {
+    flex-basis: 30%;
+    max-width: 250px;
+    margin: 10px 20px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .reqid {
+    display: none;
+  }
+
+  .pagination {
+    margin-top: 67%;
+    margin-right: 20px;
+  }
+
+  .requests-body-container {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .card-body {
+    flex-basis: 30%;
+    max-width: 250px;
+    margin: 10px 20px;
+  }
+  .modal-request {
+    width: 350px;
+  }
+  .status-flex {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 360px) {
+  .requests-info {
+    height: 90vh;
+  }
+
+  .filter-section {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    padding: 50px 20px;
+    justify-content: space-evenly;
+  }
+  .pagination {
+    margin-top: 115%;
+    margin-right: 20px;
+  }
+
+  .card-body {
+    flex-basis: 40%;
+    max-width: 250px;
+    margin: 10px 20px;
+  }
+
+  .requests-table Table {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+  }
+}

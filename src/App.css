@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.posmodal {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000006;
+  width: 100%;
+  height: 100vh;
+  z-index: 10;
+  overflow: hidden;
+}
+.openmodal {
+  background-color: #fff;
+  padding: 20px;
+  height: 200px;
+  width: 80%;
+}
+.modal-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.openmodal h1 {
+  font-size: 23px;
+  font-family: 'andika';
+}
+.modal-buttons button {
+  padding: 20px;
+  margin-right: 20px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+}

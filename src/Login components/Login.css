@@ -1,0 +1,211 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+.login_form {
+  /* background-image: url(../assests/login1.jpg); */
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/touronapp-248e4.appspot.com/o/login1.jpg?alt=media&token=0110a586-56d0-4dfa-a667-0ec5380d37c3');
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 100px;
+}
+.login_form::after {
+  opacity: 0.2;
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #000;
+  width: 100%;
+  height: 100vh;
+}
+.login_text,
+.login_box {
+  position: relative;
+  z-index: 1;
+}
+.login_text,
+.logbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.login_box .logbox {
+  /* background: rgba(0, 0, 0, 0.8); */
+  padding: 30px;
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+.login_text h1 {
+  font-size: 70px;
+  color: #fff;
+  font-weight: 500;
+  font-family: 'newyorklargeblack';
+}
+.login_text p {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 300;
+  font-family: 'andika';
+}
+.login_text .link {
+  color: #fff;
+  font-weight: 500;
+  font-family: 'andika';
+}
+.login_text .link:hover {
+  color: #ff7f00;
+}
+.loginForm {
+  background: transparent;
+  color: #fff;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.login_box .email input,
+.login_box .password input {
+  padding: 10px 20px;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-family: 'andika';
+}
+.login_box .email,
+.login_box .password {
+  border: 1.5px solid #fff;
+  margin: 20px 0;
+  border-radius: 30px;
+}
+.login_box .email i,
+.login_box .password i {
+  padding: 10px 0 10px 10px;
+}
+.login_box .logbutton {
+  border: none;
+  outline: none;
+}
+.login_box .logbutton {
+  background: transparent;
+  border: 1.5px solid #fff;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  /* width: 50%; */
+  border-radius: 30px;
+  padding: 10px 30px;
+  margin-top: 10px;
+  font-family: 'andika';
+  transition: ease 0.5s;
+}
+.login_box .buttonfix {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login_box .logbutton:hover {
+  background: #fff;
+  color: #000;
+}
+.login_box input::placeholder {
+  color: #fff;
+  font-weight: 800;
+}
+
+.loading {
+  background: transparent;
+  border: 1.5px solid #fff;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  width: 50%;
+  border-radius: 30px;
+  padding: 8px 0px;
+  margin-top: 10px;
+  font-family: 'andika';
+  transition: ease 0.5s;
+}
+.login_form .email input,
+.login_form .password input {
+  width: 317px;
+}
+.login_box input:-webkit-autofill,
+.login_box input:-webkit-autofill:hover,
+.login_box input:-webkit-autofill:focus,
+.login_box input:-webkit-autofill:active {
+  transition: background-color 5000s;
+  -webkit-text-fill-color: #fff !important;
+}
+
+@media screen and (max-width: 768px) {
+  .login_text h1 {
+    font-size: 50px;
+  }
+  .login_text p {
+    font-size: 18px;
+  }
+  .login_form .email input,
+  .login_form .password input {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 620px) {
+  .login_form .email input,
+  .login_form .password input {
+    width: 280px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .login_form {
+    display: flex;
+    flex-direction: column;
+  }
+  .login_form .login_box {
+    margin-bottom: 60px;
+  }
+  .login_form .logbutton {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .login_form .email input,
+  .login_form .password input {
+    width: 230px;
+  }
+  .login_text h1 {
+    font-size: 40px;
+  }
+  .login_text p {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .login_form .email input,
+  .login_form .password input {
+    width: 180px;
+  }
+}
+@media screen and (max-width: 280px) {
+  .login_form .email input,
+  .login_form .password input {
+    width: 150px;
+  }
+  .login_form .logbutton {
+    font-size: 16px;
+  }
+}

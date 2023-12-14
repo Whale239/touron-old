@@ -1,0 +1,224 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+.errorMessage {
+  font-size: 1rem;
+  color: red;
+}
+.signup_form {
+  /* background-image: url(../assests/login1.jpg); */
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/touronapp-248e4.appspot.com/o/login1.jpg?alt=media&token=0110a586-56d0-4dfa-a667-0ec5380d37c3');
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 90px;
+}
+.signup_form::after {
+  opacity: 0.2;
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #000;
+  width: 100%;
+  height: 100vh;
+}
+.signup_text,
+.signup_box {
+  position: relative;
+  z-index: 1;
+}
+.signup_text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.signup_box .signbox {
+  /* background: rgba(0, 0, 0, 0.8); */
+  padding: 30px;
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+.signup_text h1 {
+  font-size: 70px;
+  color: #fff;
+  font-weight: 500;
+  font-family: 'newyorklargeblack';
+}
+.signup_text p {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 300;
+  font-family: 'andika';
+}
+.signup_text .link {
+  color: #fff;
+  font-weight: 500;
+  font-family: 'andika';
+}
+.signup_text .link:hover {
+  color: #ff7f00;
+}
+.signForm {
+  background: transparent;
+  color: #fff;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+.signup_box .names input,
+.signup_box .email input,
+.signup_box .mobile input,
+.signup_box .password input {
+  padding: 10px 20px;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-family: 'andika';
+}
+
+.signup_box .names,
+.signup_box .email,
+.signup_box .mobile,
+.signup_box .password {
+  border: 1.5px solid #fff;
+  margin: 20px 0;
+  border-radius: 30px;
+}
+.signup_box .names i,
+.signup_box .email i,
+.signup_box .mobile i,
+.signup_box .password i {
+  padding: 10px 0 10px 10px;
+}
+.signup_box .signbutton {
+  border: none;
+  outline: none;
+}
+.signup_box .signbutton {
+  background: transparent;
+  border: 1.5px solid #fff;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  width: 50%;
+  border-radius: 30px;
+  padding: 10px 0px;
+  margin-top: 10px;
+  font-family: 'andika';
+  transition: ease 0.5s;
+}
+.signup_box .buttonfix {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.signup_box .signbutton:hover {
+  background: #fff;
+  color: #000;
+}
+.signup_box input::placeholder {
+  color: #fff;
+  font-weight: 800;
+}
+.signup_box .names input,
+.signup_box .email input,
+.signup_box .mobile input,
+.signup_box .password input {
+  width: 317px;
+}
+
+.signup_box input:-webkit-autofill,
+.signup_box input:-webkit-autofill:hover,
+.signup_box input:-webkit-autofill:focus,
+.signup_box input:-webkit-autofill:active {
+  transition: background-color 5000s;
+  -webkit-text-fill-color: #fff !important;
+}
+
+@media screen and (max-width: 768px) {
+  .signup_text h1 {
+    font-size: 50px;
+  }
+  .signup_text p {
+    font-size: 18px;
+  }
+  .signup_box .names input,
+  .signup_box .email input,
+  .signup_box .mobile input,
+  .signup_box .password input {
+    width: 300px;
+  }
+  .signup_form {
+    padding-top: 300px;
+    padding-bottom: 300px;
+  }
+}
+@media screen and (max-width: 620px) {
+  .signup_box .names input,
+  .signup_box .email input,
+  .signup_box .mobile input,
+  .signup_box .password input {
+    width: 280px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .signup_form {
+    display: flex;
+    flex-direction: column;
+  }
+  .signup_form {
+    padding-top: 350px;
+    padding-bottom: 350px;
+  }
+  .signup_box .signbutton {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .signup_box .names input,
+  .signup_box .email input,
+  .signup_box .mobile input,
+  .signup_box .password input {
+    width: 230px;
+  }
+  .signup_text h1 {
+    font-size: 40px;
+  }
+  .signup_text p {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .signup_box .names input,
+  .signup_box .email input,
+  .signup_box .mobile input,
+  .signup_box .password input {
+    width: 180px;
+  }
+}
+@media screen and (max-width: 280px) {
+  .signup_box .names input,
+  .signup_box .email input,
+  .signup_box .mobile input,
+  .signup_box .password input {
+    width: 150px;
+  }
+  .signup_box .signbutton {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,260 @@
+.footer {
+  background-color: #000;
+  background-size: auto;
+  padding: 20px 20px;
+}
+.footnav {
+  display: flex;
+  justify-content: space-between;
+}
+.footnav-area {
+  display: flex;
+  /* list-style: none; */
+  color: #ffffff;
+}
+.footnav-items {
+  list-style: none;
+}
+.footnav-links {
+  text-decoration: none;
+  margin-right: 20px;
+  margin-left: 20px;
+  font-size: 15px;
+  font-family: 'andika';
+  font-weight: 500;
+  color: #fff;
+}
+.footnav-links:hover,
+.selected {
+  color: #ff7f00;
+  text-decoration: none;
+  font-family: 'andika';
+}
+
+.icons {
+  display: flex;
+  padding-left: 20px;
+  float: right;
+}
+.footnav {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.29);
+  padding-bottom: 10px;
+}
+.facebook {
+  margin-left: 20px;
+}
+.twitter {
+  margin-left: 20px;
+}
+.mail {
+  margin-left: 20px;
+  margin-right: 10px;
+}
+.navigations ul {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+  color: #fff;
+}
+.link p {
+  margin-top: 10px;
+  font-family: 'andika';
+}
+.link:hover {
+  color: #ff7f00;
+  text-decoration: none;
+}
+.footer-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 0px;
+}
+.copyrights p {
+  margin: 15px 10px 0 10px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  color: #696e7d;
+  font-size: 14px;
+}
+.copyrights span {
+  color: #ff7f00;
+  font-size: 14px;
+}
+._title {
+  font-size: 13px;
+  font-weight: 900;
+  color: rgba(255, 255, 255, 0.34);
+  text-transform: uppercase;
+}
+.footer_address p {
+  font-size: 14px;
+  padding: 5px;
+  margin: 0px;
+  color: #fff;
+  font-family: 'andika';
+}
+.footer_address span {
+  color: #696e7d;
+  font-size: 14px;
+}
+.instagram,
+.facebook,
+.twitter,
+.mail {
+  color: rgba(255, 255, 255, 0.34);
+}
+.instagram:hover {
+  color: #fd1d1d;
+}
+.facebook:hover {
+  color: #009fff;
+}
+.twitter:hover {
+  color: #00acee;
+}
+.mail:hover {
+  color: #ffffff;
+}
+.address-1,
+.address-2 {
+  width: 50%;
+  background-color: #fff;
+  margin: 10px 10px 10px 0;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+}
+.selectAddress {
+  width: 50%;
+  background-color: #ff7f00;
+  margin: 10px 10px 10px 0;
+  /* cursor: pointer; */
+  padding: 5px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  color: #fff;
+}
+.footer-address {
+  display: flex;
+  margin-top: 10px;
+  font-family: 'andika';
+}
+.storeContent p {
+  margin-top: 10px;
+  color: #fff;
+  font-family: 'andika';
+}
+.magContent p {
+  margin-top: 10px;
+  color: #fff;
+  font-family: 'andika';
+}
+.playStore,
+.appStore {
+  width: 180px;
+  height: 60px;
+  margin-bottom: 10px;
+}
+.playStore img,
+.appStore img {
+  width: 100%;
+  height: 100%;
+}
+.silicon {
+  width: 150px;
+  height: 60px;
+}
+.silicon img {
+  width: 100%;
+  height: 100%;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 768px) {
+  .dualStore {
+    display: flex;
+  }
+  .playStore {
+    margin-right: 10px;
+  }
+  .navigations {
+    display: none;
+  }
+  .footnav {
+    border-bottom: none;
+  }
+  .social-icons {
+    position: relative;
+    top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .magazine {
+    padding-bottom: 20px;
+  }
+  .tour-types,
+  .links,
+  .ideas,
+  .magazine {
+    border-bottom: 1px solid #fff;
+  }
+  ._title {
+    padding-top: 20px;
+  }
+}
+@media screen and (max-width: 620px) {
+  .playStore,
+  .appStore {
+    width: 160px;
+    height: 50px;
+  }
+  .playStore img,
+  .appStore img {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media screen and (max-width: 360px) {
+  .playStore,
+  .appStore {
+    width: 150px;
+    height: 50px;
+  }
+  .playStore img,
+  .appStore img {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media screen and (max-width: 280px) {
+  .playStore,
+  .appStore {
+    width: 120px;
+    height: 45px;
+  }
+  .playStore img,
+  .appStore img {
+    width: 100%;
+    height: 100%;
+  }
+  .selectAddress,
+  .address-1,
+  .address-2 {
+    font-size: 14px;
+  }
+}

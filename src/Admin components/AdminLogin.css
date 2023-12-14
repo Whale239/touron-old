@@ -1,0 +1,32 @@
+.adminDashboard {
+  /* background-image: url(../assests/adminlogin.jpg); */
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/touronapp-248e4.appspot.com/o/adminlogin.jpg?alt=media&token=a6504437-2710-4c3b-8254-1e055b18bf60');
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.adminDashboard::after {
+  content: '';
+  position: absolute;
+  background-color: #000;
+  opacity: 0.48;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100vh;
+  width: 100%;
+}
+.login_box h1 {
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  padding-bottom: 30px;
+  font-family: 'Roboto', sans-serif;
+}

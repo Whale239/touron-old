@@ -1,0 +1,537 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+  border-radius: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* ack */
+
+.ack {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.ack button {
+  background-color: #ff7f00;
+  padding: 10px;
+  color: #f2f2f2;
+  border-radius: 20px;
+  border: none;
+}
+
+.ack img {
+  height: 260px;
+  width: 50%;
+}
+.ack p {
+  font-family: 'andika';
+}
+.scontent-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.notfound {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+}
+.notfound h2,
+.notfound h6 {
+  font-family: 'andika';
+}
+.notfound img {
+  width: 73%;
+  height: 73%;
+}
+.scontent {
+  flex-basis: 18%;
+  height: 60%;
+  margin: 40px 0;
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* border: 2px solid #0575e6; */
+  box-shadow: 0px 0px 30px 25px #f1f1f1;
+}
+.scontent h1 {
+  text-align: start;
+  font-family: 'andika';
+  font-size: 18px;
+  padding: 20px;
+  text-align: center;
+}
+.loa {
+  font-size: 10px;
+}
+.nextButton:focus {
+  outline: none;
+}
+/* .n {
+  display: none;
+} */
+
+.heading {
+  font-family: 'newyorkblacklarge';
+  font-size: 30px;
+}
+.selftour-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.selftour {
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin: 0 10px;
+}
+.countrySelection {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.countryform {
+  width: 100%;
+  display: flex;
+  height: 80%;
+
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.countryform input {
+  width: 65%;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  box-shadow: 0px 0px 20px 5px #f1f1f1;
+  height: 50px;
+  outline: none;
+  text-align: center;
+  margin: 20px;
+}
+.selfcountries-container {
+  overflow: scroll;
+  min-height: 250px;
+  height: 300px;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-wrap: wrap;
+}
+
+.countryform .singlecountry {
+  flex-basis: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px 5px;
+  flex-direction: column;
+  padding: 10px 0;
+}
+.singlecountry h5 {
+  font-family: 'andika';
+  padding: 5px 0;
+  font-size: 16px;
+}
+.singlecountry:hover {
+  cursor: pointer;
+}
+.selectedcountries {
+  border-radius: 20px;
+  font-family: 'andika';
+  border: 1px solid black;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+.steps h1 {
+  font-family: 'newyorklargeblack';
+  font-size: 25px;
+}
+.steps p {
+  text-align: center;
+}
+/* }
+city Selection */
+.selectedcitytours {
+  display: flex;
+  margin-bottom: 15px;
+}
+.sct {
+  border: 1px solid black;
+  /* background-color: #0575e6; */
+  padding: 10px 10px;
+  border-radius: 10px;
+  margin: 0 10px;
+}
+
+.sct h4 {
+  font-family: 'andika';
+  margin: 0;
+}
+.citySelection {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-top: 30px;
+  height: 400px;
+  overflow: auto;
+  overflow-y: hidden;
+}
+.citySelection-flex1 {
+  flex-basis: 48%;
+  /* overflow: auto;
+  overflow-y: hidden; */
+}
+.citySelection-flex2 {
+  flex-basis: 48%;
+  margin-left: 25px;
+}
+.selectedcities {
+  font-family: 'andika';
+  /* padding: 5px 10px; */
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  margin-right: 25px;
+}
+.selectedcities-container {
+  display: flex;
+  border-bottom: 2px solid #333;
+  margin-bottom: 20px;
+}
+
+/* dates election */
+.dcont {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+  align-items: center;
+  border-right: 1px solid #555;
+  padding: 25px 10px;
+}
+.dcont h6 {
+  cursor: pointer;
+}
+
+.dcont:nth-child(4) {
+  border: none;
+}
+.detailsSelection {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+
+  margin: 20px 0px 20px 50px;
+}
+.detailsSelection h4 {
+  font-family: 'andika';
+  font-size: 18px;
+}
+.dates input[type='date'] {
+  width: 20%;
+  /* height: 50px; */
+  text-align: center;
+  color: #f2f2f2;
+}
+.dates input {
+  width: 100%;
+  /* height: 50px; */
+  outline: none;
+  border: none;
+  font-size: 20px;
+  color: #333;
+  text-align: center;
+}
+.dates h3 {
+  font-family: 'andika';
+  font-size: 20px;
+  color: #7e7b7b;
+}
+.details-flex1 {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+.details-flex1 .scdates {
+  flex-basis: 30%;
+  display: flex;
+  margin-right: 35px;
+  margin-bottom: 20px;
+  align-items: center;
+  padding: 20px;
+  background-color: #f1f1f1;
+  box-shadow: 2px 2px 2px 2px #f1f1f1;
+  border-radius: 20px;
+  justify-content: space-between;
+}
+
+.scdates h5,
+.scdates h6 {
+  font-family: 'andika';
+  padding: 0 20px;
+  cursor: pointer;
+}
+
+.scdates h5 {
+  font-size: 16px;
+}
+.scdates img {
+  width: 60px;
+  height: 60px;
+  border-radius: 20px;
+}
+.scdates input {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #fff;
+  margin: 0px 10px;
+  border-radius: 20px;
+  text-align: center;
+  outline-style: none;
+}
+.details-flex2 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.details-flex2 .dates {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 20px 20px #f1f1f1;
+}
+
+/* tour */
+.tourlistc {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  padding-bottom: 30px;
+  overflow: auto;
+}
+.tourlist {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 45px 5px 5px;
+  margin-bottom: 3px;
+  margin-right: 10px;
+  border-bottom: 2px solid #cad5e2;
+}
+.tourlist h4 {
+  font-size: 16px;
+
+  font-family: 'andika';
+}
+.tourlist h6 {
+  color: #0575e6;
+  font-size: 14px;
+}
+
+/* hotel */
+.htype {
+  display: flex;
+  flex-basis: 15%;
+  margin: 0px 10px;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 1px solid #333;
+  padding: 15px;
+  border-radius: 20px;
+}
+.selectTraveltype {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 100px;
+}
+.travelOption {
+  display: flex;
+  padding-top: 30px;
+}
+.travelTypes h1 {
+  font-family: 'newyorklargeblack';
+  color: #ff7f00;
+  font-weight: 600;
+}
+.traveloption1 {
+  width: 50%;
+  background-color: #fff;
+  box-shadow: 0 25px 45px rgb(0 0 0 / 30%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  margin: 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.traveloption2 {
+  width: 50%;
+  background-color: #fff;
+  box-shadow: 0px 25px 45px rgb(0 0 0 / 30%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  margin: 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.traveloption1 h5,
+.traveloption2 h5 {
+  font-family: 'andika';
+}
+.traveloption1:hover,
+.traveloption2:hover {
+  color: #fff;
+  background: linear-gradient(to right, #fa9e1b, #a719ca, #8d4fff);
+  transition: 0.2s;
+}
+.selfPlanIcon {
+  margin-left: 20px;
+  font-size: 30px;
+}
+@media screen and (max-width: 768px) {
+  .selectTraveltype {
+    padding: 50px;
+  }
+  .travelOption {
+    padding-top: 10px;
+  }
+  .travelTypes h1 {
+    font-size: 24px;
+  }
+  .traveloption1 h5,
+  .traveloption2 h5 {
+    font-size: 16px;
+  }
+  .singlecountry h5 {
+    font-size: 16px;
+    padding: 5px 0;
+  }
+  .citySelection {
+    flex-wrap: nowrap;
+  }
+  .scontent {
+    display: none;
+  }
+  .heading {
+    font-size: 25px;
+  }
+  .selfPlanIcon {
+    display: none;
+  }
+  .dcont {
+    padding: 10px 20px;
+  }
+  .dcont input {
+    font-size: 16px;
+  }
+  .dcont h3 {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 620px) {
+  .countryform .singlecountry {
+    flex-basis: 30%;
+  }
+  .singlecountry h5 {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .countryform .singlecountry {
+    flex-basis: 45%;
+  }
+  .travelOption {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .traveloption1,
+  .traveloption2 {
+    width: 30%;
+  }
+}
+@media screen and (max-width: 360px) {
+  .countryform .singlecountry {
+    flex-basis: 100%;
+  }
+  .singlecountry h5 {
+    font-size: 14px;
+  }
+  .travelOption {
+    flex-direction: column;
+  }
+  .traveloption1,
+  .traveloption2 {
+    width: 60%;
+  }
+  .selectTraveltype {
+    padding: 20px;
+  }
+}
+@media screen and (max-width: 280px) {
+  .countryform input {
+    width: 85%;
+  }
+  .selectTraveltype {
+    padding: 10px;
+  }
+}
